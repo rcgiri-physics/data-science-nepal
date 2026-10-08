@@ -35,3 +35,16 @@ See [alignment/dataset-licence-register.md](alignment/dataset-licence-register.m
 | D14 | Co-maintainer recruitment | Ask CoSoG Nepal for a teacher, a Kathmandu University statistician, and a Nepali-language editor | Matches GOVERNANCE.md roles |
 | D15 | Release policy | `v0.x` until pilot evidence exists; `v1.0` only afterwards | Avoids claiming unproven impact to CDC |
 | D16 | Lesson count | Keep 123 lessons in v0.1; add lessons only where pilots show gaps | Quality over quantity |
+
+## Reconciliation with PLAN.md §12 (added 2026-10-08)
+`PLAN.md` §12 records a second set of owner-delegated decisions (D1–D12). They agree with the table above except for two points,
+resolved here:
+
+* **Scope guard (PLAN D12: v0.1 = Grade 8 Unit 1 + Grade 9 Unit 3 + datasets + working site; no new units before the slice is reviewed).**
+  The repo already contains draft packs for all 40 units. Resolution: only the two flagship units (G8 U1, G9 U3) are the **v0.1 release
+  candidate** and the focus of review; every other unit is a **draft, not released**, and must not be used in pilots until the flagship
+  slice has been reviewed.
+* **Nepali per unit (PLAN D2: a unit is not released without `.ne.md`).** Only the two flagship units have Nepali drafts, which matches
+  the release-candidate scope above. All other units stay unreleased until a teacher-editor supplies Nepali.
+* **Site title and attribution (PLAN D8/D9):** site title "Data Science Nepal (डेटा विज्ञान नेपाल)" is acceptable; the attribution line
+  should include the blog URL once the maintainer supplies it (not available yet).

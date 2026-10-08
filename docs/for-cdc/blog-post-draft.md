@@ -16,6 +16,6 @@ I am building **Data Science Nepal (डेटा विज्ञान)**: a fre
 
 **How you can help:** teachers (try a unit and tell us what happened), statisticians (review), translators, and anyone with open Nepali data.
 
-**Reuse:** content is CC BY 4.0, code is MIT. Please credit "Data Science Nepal by Giri Ramchandra and contributors" with a link to REPO_URL.
+**Reuse:** content is CC BY 4.0, code is MIT. Please credit "Data Science Nepal by Ram Chandra Giri and contributors" with a link to REPO_URL.
 
 Status: v0.1, not yet classroom-tested. If you want to pilot in your school, open an issue.

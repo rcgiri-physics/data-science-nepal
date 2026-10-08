@@ -2,7 +2,7 @@
 
 `python tools/build_site.py --lite` builds JupyterLite with the curriculum notebooks and shipped datasets into `site/lite`.
 
-Requirements: `pip install jupyterlite-core jupyterlite-pyodide-kernel`.
+Requirements: `pip install jupyterlite-core jupyterlite-pyodide-kernel jupyter-server`.
 
 ## Known caveats (untested in this repo yet)
 * The first load downloads Pyodide and pandas (reported > 70 MiB); on slow links, use the **offline bundle**

@@ -1,6 +1,6 @@
 # Governance
 
-* **Lead maintainer:** Giri Ramchandra — final say on scope, releases, and licence.
+* **Lead maintainer:** Ram Chandra Giri — final say on scope, releases, and licence.
 * **Target co-maintainers (by v0.3):** (1) a school teacher, (2) a statistician / university
   partner, (3) a Nepali-language editor. Open roles are listed in ROADMAP.md.
 * **Decisions:** discussed in GitHub issues; recorded in `docs/decisions.md`.

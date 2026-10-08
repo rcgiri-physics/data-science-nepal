@@ -4,7 +4,7 @@ Reuse is welcome and free. The only condition is **credit** (CC BY 4.0).
 
 **Copy-paste credit line**
 
-> "Data Science for Nepal's Schools (डेटा विज्ञान / Data Science Nepal)" by Giri Ramchandra
+> "Data Science for Nepal's Schools (डेटा विज्ञान / Data Science Nepal)" by Ram Chandra Giri
 > and contributors, licensed CC BY 4.0. Source: https://github.com/rcgiri-physics/data-science-nepal
 
 If you changed the material, add: *"Adapted from the original; changes were made."*

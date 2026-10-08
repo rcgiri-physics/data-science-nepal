@@ -1,7 +1,7 @@
 # Policy brief (DRAFT v0.1): Data literacy and AI readiness for the revised school curriculum
 
 **To:** CDC task force and thematic committees (AI and ICT; Mathematics; Science; Social studies)
-**From:** Giri Ramchandra, Data Science Nepal (open curriculum project) · rcgiri.physics@gmail.com
+**From:** Ram Chandra Giri, Data Science Nepal (open curriculum project) · rcgiri.physics@gmail.com
 **Status:** draft for review. Pilot evidence is **not yet available**; the claims below about classroom impact are goals, not results.
 
 ## 1. The opportunity

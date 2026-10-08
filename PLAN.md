@@ -1,7 +1,7 @@
 # Data Science for Nepal's Schools (Grades 8–12): Curriculum + Open Repo Plan
 
 > Working title: **डेटा विज्ञान / Data Science Nepal** (open curriculum, GitHub-hosted)
-> Author/maintainer: Giri Ramchandra (rcgiri.physics@gmail.com) — all reuse requires attribution
+> Author/maintainer: Ram Chandra Giri (rcgiri.physics@gmail.com) — all reuse requires attribution
 > Plan written: 2026-10-07. Status key: ✅ verified in research · ⚠️ must verify before building · ❌ problem found
 
 ---
@@ -305,7 +305,7 @@ Each phase has deliverables and acceptance criteria. Execute in order; commit af
 | D6 | **Health data:** use aggregate published indicator tables if terms allow, otherwise a clearly labelled **synthetic dataset** with DHS-like structure; link teachers to DHS registration for real microdata | DHS bans redistribution | Yes |
 | D7 | **Stack:** MkDocs Material + JupyterLite + GitHub Pages + GitHub Actions; Colab buttons as secondary | Contributor-friendly, offline-capable, free | Yes |
 | D8 | **Name:** repo `data-science-nepal`, site title "Data Science Nepal (डेटा विज्ञान नेपाल)"; hosted first under the owner's personal GitHub account, move to an org once there are 2+ maintainers | Simple, searchable; avoids org overhead at start | Yes |
-| D9 | **Attribution line** (in README/ATTRIBUTION.md/CITATION.cff): "Data Science Nepal curriculum by Giri Ramchandra and contributors, CC BY 4.0, <blog URL>" | Satisfies "mention me" | Yes |
+| D9 | **Attribution line** (in README/ATTRIBUTION.md/CITATION.cff): "Data Science Nepal curriculum by Ram Chandra Giri and contributors, CC BY 4.0, <blog URL>" | Satisfies "mention me" | Yes |
 | D10 | **Pilot schools:** none assumed. Recruit 3–5 via CoSoG Nepal, Code for Nepal, personal contacts; mix of urban/rural and internet/no-internet | — | Owner may already have schools |
 | D11 | **Co-maintainers:** aim for one teacher, one statistician/university contact, one Nepali-language editor by v0.3 | Review quality and CDC credibility | Owner decides who |
 | D12 | **Scope guard:** v0.1 = Grade 8 Unit 1 + Grade 9 Unit 3 + 3 datasets + working site; no new units before the vertical slice passes review | Prevents building much content on unverified assumptions | Yes |

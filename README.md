@@ -4,7 +4,7 @@ A free, openly licensed, bilingual (Nepali + English) data science curriculum fo
 **Grades 8–12** in Nepal's schools, built on **real Nepali data**, with teacher-ready
 materials, designed so the Curriculum Development Centre (CDC) can adopt or adapt it.
 
-> **Status: v0.1.0 (draft, pre-pilot).** Content has not yet been classroom-tested and
+> **Status: v0.1.0 (draft, pre-pilot).** Release candidate = Grade 8 Unit 1 + Grade 9 Unit 3; all other units are unreleased drafts. Content has not yet been classroom-tested and
 > Nepali text needs teacher-editor review. See [ROADMAP.md](ROADMAP.md).
 
 ## Who is it for?
@@ -44,4 +44,4 @@ Teachers: [`docs/for-teachers/`](docs/for-teachers/) · CDC pack: [`docs/for-cdc
 Teachers, students, statisticians, translators: see [CONTRIBUTING.md](CONTRIBUTING.md). You do
 not need to code — open an issue with the "new dataset" or "teacher feedback" template.
 
-Maintainer: Giri Ramchandra (rcgiri.physics@gmail.com)
+Maintainer: Ram Chandra Giri (rcgiri.physics@gmail.com)
