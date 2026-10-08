@@ -1,6 +1,6 @@
 ---
 name: class-survey-synthetic
-source_url: https://github.com/REPLACE-ME/data-science-nepal
+source_url: https://github.com/rcgiri-physics/data-science-nepal
 publisher: Written for this repository
 licence: CC0 (synthetic)
 licence_status: synthetic-cc0

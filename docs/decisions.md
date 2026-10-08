@@ -30,7 +30,7 @@ See [alignment/dataset-licence-register.md](alignment/dataset-licence-register.m
 | # | Question | Decision | Reason |
 |---|---|---|---|
 | D11 | Branding | Project name only ("Data Science Nepal / डेटा विज्ञान"); the maintainer's blog is linked, not used as the brand | Neutral name suits CDC and partners |
-| D12 | Hosting account | Not decided by the assistant: needs the owner's GitHub account/org (`REPLACE-ME` in `CITATION.cff`, one dataset card) | Publishing is outward-facing; nothing was pushed or published |
+| D12 | Hosting account | GitHub account `rcgiri-physics`, repo `data-science-nepal` (URLs filled in locally). **Not created or pushed**: publishing waits for the owner's go-ahead | Account read from the logged-in `gh` session; publishing is outward-facing |
 | D13 | Pilot schools | Start with 3 convenience schools the maintainer can reach (1 urban private, 1 urban public, 1 rural public), first units G8 U1 and G9 U3 | Smallest pilot that tests both tracks |
 | D14 | Co-maintainer recruitment | Ask CoSoG Nepal for a teacher, a Kathmandu University statistician, and a Nepali-language editor | Matches GOVERNANCE.md roles |
 | D15 | Release policy | `v0.x` until pilot evidence exists; `v1.0` only afterwards | Avoids claiming unproven impact to CDC |

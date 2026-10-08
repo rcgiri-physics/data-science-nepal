@@ -45,4 +45,4 @@ Legend: ✅ done and checked in this repo · 🟡 drafted, needs human review ·
 Teacher co-maintainer · statistician / university partner · Nepali-language editor · pilot schools · repo owner for GitHub org/Pages.
 
 ## Questions still for the owner
-Owner to review decisions D11–D16 in `docs/decisions.md`; supply the GitHub account/org to replace `REPLACE-ME` (`CITATION.cff`, one dataset card), and name the pilot schools.
+Owner to review decisions D11–D16 in `docs/decisions.md`; say when to create and push the public repo `rcgiri-physics/data-science-nepal` (not done), and name the pilot schools.
