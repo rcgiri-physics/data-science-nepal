@@ -1,0 +1,24 @@
+unit: grade-10/unit-01
+title: 'pandas deep-dive: cleaning a real-world series'
+pre_post: true
+questions:
+- id: q1
+  lesson: 1
+  type: short
+  question: Why replace -999 with NaN?
+  answer: So it isn't treated as a real (very negative) reading.
+- id: q2
+  lesson: 2
+  type: short
+  question: pandas mean() on a column with NaN does what by default?
+  answer: Skips the NaN.
+- id: q3
+  lesson: 3
+  type: short
+  question: df.groupby('month')['pm25'].mean() returns…
+  answer: One average per month.
+- id: q4
+  lesson: 4
+  type: short
+  question: What does a 7-day rolling mean do?
+  answer: Averages each day with the previous 6 days.

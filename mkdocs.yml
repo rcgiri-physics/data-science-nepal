@@ -1,0 +1,23 @@
+site_name: डेटा विज्ञान / Data Science Nepal
+site_description: Open Grades 8-12 data science curriculum for Nepal (CC BY 4.0)
+docs_dir: .site_src
+site_dir: site
+theme:
+  name: material
+  features: [navigation.sections, navigation.top, search.suggest, content.code.copy]
+  palette:
+    - scheme: default
+      primary: indigo
+markdown_extensions:
+  - tables
+  - admonition
+  - toc:
+      permalink: true
+validation:
+  links:
+    not_found: warn
+    absolute_links: ignore
+    unrecognized_links: ignore
+  nav:
+    omitted_files: ignore
+copyright: "Content CC BY 4.0 - Giri Ramchandra and contributors"

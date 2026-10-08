@@ -1,0 +1,19 @@
+unit: grade-11/unit-05
+title: Regression with interpretation
+pre_post: true
+questions:
+- id: q1
+  lesson: 1
+  type: short
+  question: Slope 0.04 kg per visit means…
+  answer: Each extra visit goes with about 0.04 kg higher birth weight on average.
+- id: q2
+  lesson: 2
+  type: short
+  question: '''Holding visits fixed'' means…'
+  answer: Comparing mothers with the same number of visits.
+- id: q3
+  lesson: 3
+  type: short
+  question: What does R² = 0.4 mean?
+  answer: 40% of the variation in y is explained by the model.

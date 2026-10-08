@@ -1,0 +1,19 @@
+unit: grade-10/unit-03
+title: Relationships and the line of best fit
+pre_post: true
+questions:
+- id: q1
+  lesson: 1
+  type: short
+  question: r = −0.9 means…
+  answer: A strong negative straight-line relationship.
+- id: q2
+  lesson: 2
+  type: short
+  question: Slope 1.6 for PM10 vs PM2.5 means…
+  answer: PM10 is about 1.6 µg/m³ higher for each 1 µg/m³ of PM2.5.
+- id: q3
+  lesson: 3
+  type: short
+  question: What is a confounder?
+  answer: A hidden factor that affects both variables.

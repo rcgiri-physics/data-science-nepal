@@ -1,0 +1,19 @@
+unit: grade-10/unit-02
+title: Distributions and outliers
+pre_post: true
+questions:
+- id: q1
+  lesson: 1
+  type: short
+  question: Right-skewed means…
+  answer: A long tail to the high side.
+- id: q2
+  lesson: 2
+  type: short
+  question: IQR equals…
+  answer: Q3 − Q1.
+- id: q3
+  lesson: 3
+  type: short
+  question: Rule for the upper fence?
+  answer: Q3 + 1.5 × IQR.

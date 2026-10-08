@@ -1,0 +1,5 @@
+datasets:
+- health-synthetic
+- census-districts
+- kathmandu-air-quality
+- climate-monthly

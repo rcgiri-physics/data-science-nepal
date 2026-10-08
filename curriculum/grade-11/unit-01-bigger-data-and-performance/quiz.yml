@@ -1,0 +1,19 @@
+unit: grade-11/unit-01
+title: Bigger data and performance basics
+pre_post: true
+questions:
+- id: q1
+  lesson: 1
+  type: short
+  question: Why measure first?
+  answer: To fix the real bottleneck.
+- id: q2
+  lesson: 2
+  type: short
+  question: int8 holds values from…
+  answer: −128 to 127.
+- id: q3
+  lesson: 3
+  type: short
+  question: What does an index speed up?
+  answer: Lookups/filters on the indexed column.

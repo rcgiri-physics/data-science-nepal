@@ -1,0 +1,19 @@
+unit: grade-11/unit-02
+title: 'SQL: joins and window functions (lite)'
+pre_post: true
+questions:
+- id: q1
+  lesson: 1
+  type: short
+  question: GROUP BY vs PARTITION BY?
+  answer: GROUP BY collapses rows; PARTITION BY keeps them.
+- id: q2
+  lesson: 2
+  type: short
+  question: Percent of belt formula?
+  answer: 100 × population ÷ SUM(population) OVER (PARTITION BY belt).
+- id: q3
+  lesson: 3
+  type: short
+  question: INNER JOIN rows = ?
+  answer: Only matching rows.

@@ -1,0 +1,19 @@
+unit: grade-12/unit-05
+title: Fairness and bias audit
+pre_post: true
+questions:
+- id: q1
+  lesson: 1
+  type: short
+  question: Name two sources of bias.
+  answer: e.g. unrepresentative data; labels reflecting past unfairness; measurement differences.
+- id: q2
+  lesson: 2
+  type: short
+  question: Why show group sizes?
+  answer: Small groups make estimates noisy.
+- id: q3
+  lesson: 3
+  type: short
+  question: Can you always 'fix' bias with a tweak?
+  answer: 'No: sometimes the answer is not to use the model.'

@@ -1,0 +1,19 @@
+unit: grade-12/unit-07
+title: Communicating with data
+pre_post: true
+questions:
+- id: q1
+  lesson: 1
+  type: short
+  question: What is an action title?
+  answer: A title that states the finding.
+- id: q2
+  lesson: 2
+  type: short
+  question: What goes first?
+  answer: The bottom line.
+- id: q3
+  lesson: 3
+  type: short
+  question: How to show uncertainty plainly?
+  answer: Use a range and a sentence like 'likely between X and Y'.

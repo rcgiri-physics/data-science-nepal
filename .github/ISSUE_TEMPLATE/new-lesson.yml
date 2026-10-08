@@ -1,0 +1,17 @@
+name: New lesson or problem
+description: Propose a lesson, activity or project for an existing unit
+labels: [lesson]
+body:
+  - type: input
+    id: unit
+    attributes: {label: "Which unit? (e.g. grade-09/unit-03-sql-basics)"}
+    validations: {required: true}
+  - type: textarea
+    id: idea
+    attributes: {label: "Describe the local question, the data, and the activity"}
+    validations: {required: true}
+  - type: dropdown
+    id: track
+    attributes:
+      label: Track
+      options: ["A (no-code)", "B (code)"]

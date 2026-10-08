@@ -8,7 +8,8 @@ dependencies:
   - nbformat
   - nbclient
   - pyyaml
+  - scikit-learn
   - pip
   - pip:
-      - mkdocs
+      - "mkdocs<2"
       - mkdocs-material

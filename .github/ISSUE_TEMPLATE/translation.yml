@@ -1,0 +1,15 @@
+name: Translation
+description: Offer to translate or review a translation
+labels: [translation, needs-teacher-review]
+body:
+  - type: input
+    id: lang
+    attributes: {label: "Language"}
+    validations: {required: true}
+  - type: input
+    id: what
+    attributes: {label: "Which unit(s)?"}
+    validations: {required: true}
+  - type: textarea
+    id: who
+    attributes: {label: "Your background (teacher, translator, student…)"}

@@ -1,0 +1,19 @@
+unit: grade-10/unit-04
+title: Time series basics
+pre_post: true
+questions:
+- id: q1
+  lesson: 1
+  type: short
+  question: Is a yearly warm summer a trend?
+  answer: No, it is seasonality.
+- id: q2
+  lesson: 2
+  type: short
+  question: Slope 0.03 °C/yr is how much per decade?
+  answer: 0.3 °C.
+- id: q3
+  lesson: 3
+  type: short
+  question: Anomaly = ?
+  answer: Observed − usual (baseline) value for that month.

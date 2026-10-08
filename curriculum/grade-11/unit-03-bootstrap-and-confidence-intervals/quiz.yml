@@ -1,0 +1,19 @@
+unit: grade-11/unit-03
+title: 'Uncertainty: bootstrap and confidence intervals'
+pre_post: true
+questions:
+- id: q1
+  lesson: 1
+  type: short
+  question: Will two samples give the same mean?
+  answer: Usually not.
+- id: q2
+  lesson: 2
+  type: short
+  question: '''With replacement'' means…'
+  answer: Each draw is put back, so items can repeat.
+- id: q3
+  lesson: 3
+  type: short
+  question: Which is narrower, n=25 or n=400?
+  answer: n = 400.

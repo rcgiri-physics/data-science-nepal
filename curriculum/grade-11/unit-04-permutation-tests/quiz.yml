@@ -1,0 +1,19 @@
+unit: grade-11/unit-04
+title: Is the difference real? Permutation tests
+pre_post: true
+questions:
+- id: q1
+  lesson: 1
+  type: short
+  question: What does shuffling labels imitate?
+  answer: Groups being interchangeable (no real difference).
+- id: q2
+  lesson: 2
+  type: short
+  question: p-value = ?
+  answer: Share of shuffled differences as extreme as the observed.
+- id: q3
+  lesson: 3
+  type: short
+  question: Does small p show a large effect?
+  answer: 'No: check the effect size.'

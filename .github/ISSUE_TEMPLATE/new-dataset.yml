@@ -1,0 +1,32 @@
+name: New dataset
+description: Suggest an open dataset for a lesson
+labels: [dataset]
+body:
+  - type: input
+    id: name
+    attributes: {label: Dataset name}
+    validations: {required: true}
+  - type: input
+    id: url
+    attributes: {label: Where is it published? (URL)}
+    validations: {required: true}
+  - type: input
+    id: licence
+    attributes: {label: "Licence (exact name + URL on the publisher page)"}
+    validations: {required: true}
+  - type: dropdown
+    id: grade
+    attributes:
+      label: Grade
+      multiple: true
+      options: ["8", "9", "10", "11", "12"]
+  - type: textarea
+    id: why
+    attributes: {label: "Which topic/question could it support? Any privacy or fairness concerns?"}
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Rules
+      options:
+        - label: It does not require registration/approval to obtain and contains no personal data
+          required: true

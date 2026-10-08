@@ -1,0 +1,19 @@
+unit: grade-11/unit-08
+title: Reproducibility, Git and the climate project
+pre_post: true
+questions:
+- id: q1
+  lesson: 1
+  type: short
+  question: What does git commit record?
+  answer: A snapshot with a message.
+- id: q2
+  lesson: 2
+  type: short
+  question: Why set a seed?
+  answer: So random results can be repeated.
+- id: q3
+  lesson: 3
+  type: short
+  question: What proves it is reproducible?
+  answer: Someone else reruns it and gets the same results.

@@ -1,0 +1,12 @@
+name: Bug or error
+description: Wrong answer, broken notebook, factual error, broken link
+labels: [bug]
+body:
+  - type: input
+    id: where
+    attributes: {label: "File or page"}
+    validations: {required: true}
+  - type: textarea
+    id: what
+    attributes: {label: "What is wrong? What did you expect?"}
+    validations: {required: true}
