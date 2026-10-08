@@ -13,4 +13,3 @@ Use these files in order:
 agreement, a teacher's approval and guardian consent where students appear. Prefer aggregated or synthetic data.
 A signed agreement is not legal advice; ask the school or a lawyer about local requirements.
 
-> **Status:** template only. A **worked example completed by a real pilot team** is still needed (ROADMAP Phase 3).

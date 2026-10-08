@@ -1,6 +1,6 @@
 # Grade 12 · Unit 2: Regression and classification
 
-> Track: B (code) · Tools: Python, scikit-learn · Lessons: 3 · Version: 0.1 draft (English)
+> Track: B (code) · Tools: Python, scikit-learn · Lessons: 3
 > Datasets: `health-synthetic`
 
 **Big idea.** Regression predicts a number; classification predicts a category. Simple models are often the most explainable.

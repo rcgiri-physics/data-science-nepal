@@ -1,6 +1,6 @@
 # Grade 11 · Unit 4: Is the difference real? Permutation tests
 
-> Track: B (code) · Tools: Python, numpy · Lessons: 3 · Version: 0.1 draft (English)
+> Track: B (code) · Tools: Python, numpy · Lessons: 3
 > Datasets: `health-synthetic`
 
 **Big idea.** To ask if a difference between two groups could be just chance, shuffle the labels many times and see how often chance alone produces such a difference.

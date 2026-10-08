@@ -1,6 +1,6 @@
 # Grade 11 · Unit 2: SQL: joins and window functions (lite)
 
-> Track: B (code: SQL) · Tools: SQLite via Python · Lessons: 3 · Version: 0.1 draft (English)
+> Track: B (code: SQL) · Tools: SQLite via Python · Lessons: 3
 > Datasets: `census-districts`
 
 **Big idea.** Window functions rank, compare and accumulate *within groups* without collapsing rows — a powerful step beyond GROUP BY.

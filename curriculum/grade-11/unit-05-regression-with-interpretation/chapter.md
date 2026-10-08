@@ -1,6 +1,6 @@
 # Grade 11 · Unit 5: Regression with interpretation
 
-> Track: B (code) · Tools: Python, numpy · Lessons: 3 · Version: 0.1 draft (English)
+> Track: B (code) · Tools: Python, numpy · Lessons: 3
 > Datasets: `health-synthetic`
 
 **Big idea.** Regression estimates how an outcome changes with one or more variables, holding the others fixed — and must be read with care.

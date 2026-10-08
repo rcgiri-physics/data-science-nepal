@@ -1,6 +1,6 @@
 # Grade 8 · Unit 1: What is data?
 
-> Track: A (no-code) · Tools: paper, calculator · Lessons: 3 · Version: 0.1 draft (English)
+> Track: A (no-code) · Tools: paper, calculator · Lessons: 3
 > Datasets: `class-survey-synthetic`
 
 **Big idea.** Data are recorded facts about people, places or things. Before we analyse anything we must know what one row is, what each column measures, and who collected it.

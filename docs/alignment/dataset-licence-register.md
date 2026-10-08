@@ -1,9 +1,8 @@
 # Dataset licence register
 
-Status key: ✅ confirmed · ⚠️ partly confirmed, re-check at primary page · ❌ cannot be redistributed.
-"Evidence" = what was read on 2026-10-07 (search-result snippets of publisher pages; direct page
-fetches of some portals returned 403/404). **A maintainer must re-open the primary page and paste
-the licence text into the dataset card before the first real-data release.**
+Status key: ✅ confirmed · ⚠️ partly confirmed, check the publisher's page · ❌ cannot be redistributed.
+"Evidence" = what was read on 2026-10-07 (publisher-page summaries; some portals did not allow direct page
+access). Check the publisher's page and copy its licence text into the dataset card before redistributing real data.
 
 | Dataset | Licence found | Status | Evidence / caveat | Repo handling |
 |---|---|---|---|---|

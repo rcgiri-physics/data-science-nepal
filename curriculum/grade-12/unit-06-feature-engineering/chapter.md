@@ -1,6 +1,6 @@
 # Grade 12 · Unit 6: Feature engineering
 
-> Track: B (code) · Tools: Python, pandas, scikit-learn · Lessons: 3 · Version: 0.1 draft (English)
+> Track: B (code) · Tools: Python, pandas, scikit-learn · Lessons: 3
 > Datasets: `health-synthetic`
 
 **Big idea.** How we represent the data — bins, flags, interactions, categories — often matters more than the choice of model.

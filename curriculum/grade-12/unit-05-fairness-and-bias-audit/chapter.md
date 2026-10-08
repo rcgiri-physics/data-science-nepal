@@ -1,6 +1,6 @@
 # Grade 12 · Unit 5: Fairness and bias audit
 
-> Track: B (code + discussion) · Tools: Python, scikit-learn · Lessons: 3 · Version: 0.1 draft (English)
+> Track: B (code + discussion) · Tools: Python, scikit-learn · Lessons: 3
 > Datasets: `health-synthetic`
 
 **Big idea.** A model can be accurate overall and still work worse for some groups. An audit compares errors and selection rates across groups and asks who is harmed.

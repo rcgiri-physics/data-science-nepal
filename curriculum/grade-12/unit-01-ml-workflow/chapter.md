@@ -1,6 +1,6 @@
 # Grade 12 · Unit 1: The machine-learning workflow
 
-> Track: B (code) · Tools: Python, scikit-learn · Lessons: 3 · Version: 0.1 draft (English)
+> Track: B (code) · Tools: Python, scikit-learn · Lessons: 3
 > Datasets: `health-synthetic`
 
 **Big idea.** A trustworthy model follows a workflow: define the task, split the data, set a baseline, train, validate, and test once at the end.

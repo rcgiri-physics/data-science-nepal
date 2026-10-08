@@ -1,6 +1,6 @@
 # Grade 8 · Unit 4: Showing data
 
-> Track: A (no-code); optional CODAP · Tools: graph paper, optional CODAP · Lessons: 3 · Version: 0.1 draft (English)
+> Track: A (no-code); optional CODAP · Tools: graph paper, optional CODAP · Lessons: 3
 > Datasets: `class-survey-synthetic`, `census-districts`
 
 **Big idea.** A graph is an argument made visible. The right graph helps the eye; a careless one can mislead.

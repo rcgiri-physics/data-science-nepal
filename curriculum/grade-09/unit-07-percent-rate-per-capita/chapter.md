@@ -1,6 +1,6 @@
 # Grade 9 · Unit 7: Percent, rate and per-capita
 
-> Track: A/B · Tools: calculator, spreadsheet or pandas · Lessons: 3 · Version: 0.1 draft (English)
+> Track: A/B · Tools: calculator, spreadsheet or pandas · Lessons: 3
 > Datasets: `census-districts`
 
 **Big idea.** Fair comparison needs rates. Per-capita and per-1,000 measures remove the effect of size; percentage points and percent change are not the same.

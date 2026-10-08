@@ -1,6 +1,6 @@
 # Grade 9 · Unit 2: Cleaning data
 
-> Track: A/B (spreadsheet + notes) · Tools: spreadsheet, cleaning log · Lessons: 4 · Version: 0.1 draft (English)
+> Track: A/B (spreadsheet + notes) · Tools: spreadsheet, cleaning log · Lessons: 4
 > Datasets: `kathmandu-air-quality`
 
 **Big idea.** Real data are messy. Cleaning is detective work, and every change must be written down so others can check it.

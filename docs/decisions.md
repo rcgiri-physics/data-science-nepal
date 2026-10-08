@@ -1,50 +1,22 @@
-# Decisions log (Phase 0)
+# Design decisions
 
-Date: 2026-10-07. Decisions on PLAN.md §12 open questions were made by taking the plan's
-**recommended option**; the owner can reverse any of them by opening an issue.
-
-| # | Question | Decision | Reason |
+| # | Topic | Decision | Reason |
 |---|---|---|---|
-| D1 | Content licence | **CC BY 4.0** (code MIT) | Matches "reuse by crediting me"; lets CDC embed in textbooks. BY-SA would complicate government publishing. |
-| D2 | Writing language | **English draft + Nepali by teacher-editor**, released together per unit | Fast drafting, quality Nepali. Units without reviewed Nepali are labelled `ne: draft/pending`. |
-| D3 | Web framework | **Streamlit** for Gr 10–12 dashboards; **Django optional** stretch in Gr 12 | Light on school PCs; stays on data work. |
-| D4 | Database | **SQLite** Gr 9–11; MySQL/PostgreSQL as concepts in Gr 11–12 | Zero install, runs in browser, same SQL. |
-| D5 | Project / repo name | **डेटा विज्ञान / Data Science Nepal**; repo `data-science-nepal` | Plan's working title. Owner to pick the GitHub account/org (open). |
-| D6 | Site tooling | **MkDocs Material + JupyterLite + GitHub Pages + GitHub Actions** | Markdown-first, easy for teachers to PR. |
-| D7 | Health data (DHS) | **Do not ship DHS.** Use a **clearly-labelled synthetic** DHS-like teaching dataset; teachers may register with DHS themselves | DHS terms forbid redistribution "directly or within any tool/dashboard". |
-| D8 | Offline-first | **JupyterLite primary**, Colab badge secondary, USB bundle script | Weak connectivity in many schools. |
-| D9 | Real vs synthetic data in repo | Real data is **fetched by script from the original source** (never silently re-hosted); the repo ships only small *synthetic* practice tables, always labelled `SYNTHETIC` | Licence safety and honesty: no invented numbers presented as real. |
-| D10 | Data licence handling | Datasets keep their own licence in their card; share-alike data (CC BY-SA, ODbL) stays in `datasets/` and is not mixed into CC BY content | Keeps CC BY content clean. |
+| D1 | Licences | **CC BY 4.0** for content, **MIT** for code; data keeps its own licence | Reuse with credit; CDC and NGOs can adopt without share-alike friction |
+| D2 | Languages | English first, Nepali by a teacher-editor, released together per unit | Technical content is faster to write in English; Nepali is needed for CDC adoption |
+| D3 | Dashboards | **Streamlit**; Django only as an optional Grade 12 stretch | Light on school PCs; stays focused on data |
+| D4 | Programming order | SQL in Grade 9, a short first-Python taste in Grade 9, main Python in Grade 10 | Matches the optional CS syllabus as reported |
+| D5 | Database | **SQLite** in Grades 9–11; MySQL/PostgreSQL as concepts in 11–12 | No install, runs in the browser, same SQL |
+| D6 | Health data | No DHS data is shipped. A clearly labelled synthetic table is used instead | DHS terms forbid redistribution "directly or within any tool/dashboard" |
+| D7 | Real vs synthetic data | Real data is fetched from the original publisher by script; only small synthetic tables are shipped, labelled `SYNTHETIC` | Licence safety; no invented numbers presented as real |
+| D8 | Data licences | Share-alike data (CC BY-SA, ODbL) stays in `datasets/` and is not mixed into CC BY text | Keeps CC BY content clean |
+| D9 | Tooling | MkDocs Material + JupyterLite + GitHub Pages + GitHub Actions; Colab as secondary | Contributor-friendly, offline-capable, free |
+| D10 | Offline first | JupyterLite primary; school USB bundle (`tools/build_offline_bundle.py`) | Weak connectivity in many schools |
+| D11 | Name and branding | "Data Science Nepal / डेटा विज्ञान"; repo `data-science-nepal` | Neutral and searchable |
+| D12 | Hosting | GitHub account `rcgiri-physics`; move to an organisation once there are two or more maintainers | Simple start |
+| D13 | Release scope | Grade 8 Unit 1 and Grade 9 Unit 3 are the v0.1 release candidate; other units are available for review and are not recommended for classroom pilots until reviewed | Review the vertical slice before scaling |
+| D14 | Pilots | 3–5 schools: urban and rural, public and private, with and without internet; first units G8 U1 and G9 U3 | Tests both tracks |
+| D15 | Co-maintainers | One teacher, one statistician or university contact, one Nepali-language editor | Review quality and CDC credibility |
+| D16 | Releases | `v0.x` until pilot evidence exists; `v1.0` afterwards | Avoids claiming unproven impact |
 
-## Verified in this pass (2026-10-07, via web search of publisher-page snippets)
-See [alignment/dataset-licence-register.md](alignment/dataset-licence-register.md).
-
-## Not verifiable here (needs a person) — carried to ROADMAP
-* Reading the CDC / NEB syllabus PDFs end-to-end (the Grade 9 CS PDF exceeded the fetch size limit).
-* GAISE II full text (publisher site returned HTTP 402) — the mapping uses the public four-step
-  process and level structure; add page references after reading the PDF.
-* Pilot schools, teacher PD sessions, Nepali editorial review, CDC submission.
-* Measuring JupyterLite first-load time on a 2 Mbps link.
-
-## Owner delegated all remaining decisions (2026-10-08) — to be reviewed by the owner
-| # | Question | Decision | Reason |
-|---|---|---|---|
-| D11 | Branding | Project name only ("Data Science Nepal / डेटा विज्ञान"); the maintainer's blog is linked, not used as the brand | Neutral name suits CDC and partners |
-| D12 | Hosting account | GitHub account `rcgiri-physics`, repo `data-science-nepal` (URLs filled in locally). **Not created or pushed**: publishing waits for the owner's go-ahead | Account read from the logged-in `gh` session; publishing is outward-facing |
-| D13 | Pilot schools | Start with 3 convenience schools the maintainer can reach (1 urban private, 1 urban public, 1 rural public), first units G8 U1 and G9 U3 | Smallest pilot that tests both tracks |
-| D14 | Co-maintainer recruitment | Ask CoSoG Nepal for a teacher, a Kathmandu University statistician, and a Nepali-language editor | Matches GOVERNANCE.md roles |
-| D15 | Release policy | `v0.x` until pilot evidence exists; `v1.0` only afterwards | Avoids claiming unproven impact to CDC |
-| D16 | Lesson count | Keep 123 lessons in v0.1; add lessons only where pilots show gaps | Quality over quantity |
-
-## Reconciliation with PLAN.md §12 (added 2026-10-08)
-`PLAN.md` §12 records a second set of owner-delegated decisions (D1–D12). They agree with the table above except for two points,
-resolved here:
-
-* **Scope guard (PLAN D12: v0.1 = Grade 8 Unit 1 + Grade 9 Unit 3 + datasets + working site; no new units before the slice is reviewed).**
-  The repo already contains draft packs for all 40 units. Resolution: only the two flagship units (G8 U1, G9 U3) are the **v0.1 release
-  candidate** and the focus of review; every other unit is a **draft, not released**, and must not be used in pilots until the flagship
-  slice has been reviewed.
-* **Nepali per unit (PLAN D2: a unit is not released without `.ne.md`).** Only the two flagship units have Nepali drafts, which matches
-  the release-candidate scope above. All other units stay unreleased until a teacher-editor supplies Nepali.
-* **Site title and attribution (PLAN D8/D9):** site title "Data Science Nepal (डेटा विज्ञान नेपाल)" is acceptable; the attribution line
-  should include the blog URL once the maintainer supplies it (not available yet).
+Dataset licence evidence: [alignment/dataset-licence-register.md](alignment/dataset-licence-register.md).

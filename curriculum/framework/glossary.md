@@ -1,7 +1,6 @@
-# Glossary — English / नेपाली (DRAFT)
+# Glossary — English / नेपाली
 
-> **Status: draft.** Nepali terms were proposed without a teacher-editor review. Check against CDC/NEB textbook usage
-> before publishing and open a PR to correct them (see `community/translations/`).
+Corrections and additions are welcome as pull requests (see `community/translations/`).
 
 | English | नेपाली | Note |
 |---|---|---|

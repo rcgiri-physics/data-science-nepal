@@ -1,6 +1,6 @@
 # Grade 10 · Unit 4: Time series basics
 
-> Track: B (code) · Tools: Python, pandas · Lessons: 3 · Version: 0.1 draft (English)
+> Track: B (code) · Tools: Python, pandas · Lessons: 3
 > Datasets: `climate-monthly`
 
 **Big idea.** Data over time have trend, seasonality and noise. Separate them before claiming something has changed.

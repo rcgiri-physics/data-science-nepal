@@ -1,6 +1,6 @@
 # Grade 10 · Unit 2: Distributions and outliers
 
-> Track: B (code) · Tools: Python, pandas, matplotlib · Lessons: 3 · Version: 0.1 draft (English)
+> Track: B (code) · Tools: Python, pandas, matplotlib · Lessons: 3
 > Datasets: `kathmandu-air-quality`
 
 **Big idea.** The shape of data — centre, spread, skew and outliers — decides which summary and which test is fair.

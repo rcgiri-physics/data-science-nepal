@@ -1,6 +1,6 @@
 # Grade 12 · Unit 4: Overfitting and generalising
 
-> Track: B (code) · Tools: Python, numpy · Lessons: 3 · Version: 0.1 draft (English)
+> Track: B (code) · Tools: Python, numpy · Lessons: 3
 > Datasets: none
 
 **Big idea.** A model that memorises its training data fails on new data. Complexity must be matched to how much data and noise we have.

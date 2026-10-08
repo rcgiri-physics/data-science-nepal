@@ -1,6 +1,6 @@
 # Grade 10 · Unit 3: Relationships and the line of best fit
 
-> Track: B (code) · Tools: Python, numpy, matplotlib · Lessons: 3 · Version: 0.1 draft (English)
+> Track: B (code) · Tools: Python, numpy, matplotlib · Lessons: 3
 > Datasets: `kathmandu-air-quality`, `climate-monthly`
 
 **Big idea.** A scatter plot shows if two variables move together; a line of best fit summarises it; correlation is not causation.

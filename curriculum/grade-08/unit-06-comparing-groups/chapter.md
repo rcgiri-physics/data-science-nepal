@@ -1,6 +1,6 @@
 # Grade 8 · Unit 6: Comparing groups
 
-> Track: A (no-code) · Tools: paper, calculator · Lessons: 3 · Version: 0.1 draft (English)
+> Track: A (no-code) · Tools: paper, calculator · Lessons: 3
 > Datasets: `census-districts`
 
 **Big idea.** Comparing two places fairly means using rates or percentages, not raw counts. District tables are for comparing.

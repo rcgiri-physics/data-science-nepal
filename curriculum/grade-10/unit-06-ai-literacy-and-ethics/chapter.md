@@ -1,6 +1,6 @@
 # Grade 10 · Unit 6: AI literacy and ethics
 
-> Track: A (no-code) · Tools: discussion, case cards · Lessons: 3 · Version: 0.1 draft (English)
+> Track: A (no-code) · Tools: discussion, case cards · Lessons: 3
 > Datasets: none
 
 **Big idea.** AI systems are built from data and choices. Understanding where they fail helps us use them wisely and fairly.

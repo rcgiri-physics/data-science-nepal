@@ -10,3 +10,4 @@ datasets/*/raw/*
 .site_src/
 .lite_contents/
 site/
+.local-notes/

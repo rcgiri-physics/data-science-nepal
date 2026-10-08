@@ -1,8 +1,8 @@
-# Policy brief (DRAFT v0.1): Data literacy and AI readiness for the revised school curriculum
+# Policy brief: Data literacy and AI readiness for the revised school curriculum
 
 **To:** CDC task force and thematic committees (AI and ICT; Mathematics; Science; Social studies)
 **From:** Ram Chandra Giri, Data Science Nepal (open curriculum project) · rcgiri.physics@gmail.com
-**Status:** draft for review. Pilot evidence is **not yet available**; the claims below about classroom impact are goals, not results.
+**Note:** classroom pilots have not yet been run; statements below about classroom impact are goals, not results.
 
 ## 1. The opportunity
 Nepal's school curriculum (Grades 1–12) is being revised, with consultations reported in 2026 and an AI and ICT thematic
@@ -17,8 +17,8 @@ A free, openly licensed (CC BY 4.0 / MIT), bilingual-ready curriculum for Grades
 * teacher guides, rubrics, assessment banks, and offline delivery (USB bundle) for schools with weak connectivity;
 * data ethics and responsible AI use from Grade 8.
 
-## 3. Evidence of fit and gaps (to be completed)
-See `competency-map.md` (maps to current subjects) and `docs/alignment/current-syllabus-notes.md` (⚠️ syllabus PDFs not yet fully read).
+## 3. Fit with current subjects
+See `competency-map.md` (maps units to current subjects) and `docs/alignment/current-syllabus-notes.md` (summary of the current syllabi as publicly reported).
 
 ## 4. Requests
 1. Review `curriculum/grade-08/unit-01-what-is-data` and `curriculum/grade-09/unit-03-sql-basics` as sample units.
@@ -27,7 +27,7 @@ See `competency-map.md` (maps to current subjects) and `docs/alignment/current-s
 
 ## 5. Costs and risks
 * **Cost:** zero licence cost; computers needed only for Track B; Track A needs paper and a calculator.
-* **Risks:** teacher preparation time; connectivity; Nepali translation quality (review in progress); data licences (we never redistribute restricted data).
+* **Risks:** teacher preparation time; connectivity; Nepali text quality (teacher review is recommended before classroom use); data licences (we never redistribute restricted data).
 
 ## 6. Next 6 months
 Pilot in 3–5 schools (urban/rural, public/private, with/without internet); revise; publish `v1.0` as a fixed citable edition.

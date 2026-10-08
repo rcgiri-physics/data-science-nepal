@@ -1,6 +1,6 @@
 # Grade 11 · Unit 7: Maps and geospatial thinking
 
-> Track: B (code, light) · Tools: Python, numpy, matplotlib (folium/GeoPandas optional) · Lessons: 3 · Version: 0.1 draft (English)
+> Track: B (code, light) · Tools: Python, numpy, matplotlib (folium/GeoPandas optional) · Lessons: 3
 > Datasets: none
 
 **Big idea.** Where things are matters. Coordinates, distances, regions and map choices (and their licences) all shape the story a map tells.

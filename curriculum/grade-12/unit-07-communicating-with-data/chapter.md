@@ -1,6 +1,6 @@
 # Grade 12 · Unit 7: Communicating with data
 
-> Track: A/B · Tools: charts, writing, optional Streamlit · Lessons: 3 · Version: 0.1 draft (English)
+> Track: A/B · Tools: charts, writing, optional Streamlit · Lessons: 3
 > Datasets: `census-districts`
 
 **Big idea.** Analysis only matters if people understand and can act on it: action titles, honest charts, short memos and clear limits.

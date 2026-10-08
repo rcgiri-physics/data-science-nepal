@@ -1,6 +1,6 @@
 # Grade 12 · Unit 3: Evaluation metrics
 
-> Track: B (code) · Tools: Python, scikit-learn · Lessons: 3 · Version: 0.1 draft (English)
+> Track: B (code) · Tools: Python, scikit-learn · Lessons: 3
 > Datasets: `health-synthetic`
 
 **Big idea.** Accuracy hides the kind of mistakes a model makes. Precision, recall and the confusion matrix show who is missed or wrongly flagged.

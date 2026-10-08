@@ -1,6 +1,6 @@
 # Grade 8 · Unit 3: Collecting and recording
 
-> Track: A (no-code) · Tools: paper, tally sheets, optional spreadsheet · Lessons: 3 · Version: 0.1 draft (English)
+> Track: A (no-code) · Tools: paper, tally sheets, optional spreadsheet · Lessons: 3
 > Datasets: `class-survey-synthetic`
 
 **Big idea.** Good data start with consent, careful recording and a clean table. Messy recording makes every later step harder.

@@ -1,6 +1,6 @@
 # Grade 8 · Unit 8: Data and people
 
-> Track: A (no-code) · Tools: paper, discussion · Lessons: 3 · Version: 0.1 draft (English)
+> Track: A (no-code) · Tools: paper, discussion · Lessons: 3
 > Datasets: `class-survey-synthetic`
 
 **Big idea.** Behind every row is a person. Fair, careful data work asks who is counted, who is missing and who could be harmed.

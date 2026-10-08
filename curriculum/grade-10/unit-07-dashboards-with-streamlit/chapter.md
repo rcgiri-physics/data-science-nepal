@@ -1,6 +1,6 @@
 # Grade 10 · Unit 7: Dashboards with Streamlit
 
-> Track: B (code) · Tools: Python, Streamlit · Lessons: 3 · Version: 0.1 draft (English)
+> Track: B (code) · Tools: Python, Streamlit · Lessons: 3
 > Datasets: `kathmandu-air-quality`
 
 **Big idea.** A dashboard lets others explore your analysis. Good dashboards answer one question clearly and say where the data came from.

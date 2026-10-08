@@ -1,6 +1,6 @@
 # Grade 9 · Unit 4: First steps in Python
 
-> Track: B (code: Python) · Tools: Python in the browser (JupyterLite) or Colab · Lessons: 3 · Version: 0.1 draft (English)
+> Track: B (code: Python) · Tools: Python in the browser (JupyterLite) or Colab · Lessons: 3
 > Datasets: `class-survey-synthetic`
 
 **Big idea.** Python lets us tell a computer what to do with data step by step: store values, repeat actions and reuse ideas in functions.

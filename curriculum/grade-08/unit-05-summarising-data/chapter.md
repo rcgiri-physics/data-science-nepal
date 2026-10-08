@@ -1,6 +1,6 @@
 # Grade 8 · Unit 5: Summarising data
 
-> Track: A (no-code) · Tools: paper, calculator · Lessons: 3 · Version: 0.1 draft (English)
+> Track: A (no-code) · Tools: paper, calculator · Lessons: 3
 > Datasets: `class-survey-synthetic`
 
 **Big idea.** One number can summarise a whole list — but which number depends on the shape of the data and the question.

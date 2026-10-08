@@ -1,7 +1,6 @@
 # Assessment (continuous, competency-based)
 
-Designed to fit continuous and formative assessment in Nepal's competency-based framework (NCF 2076; ⚠️ confirm
-current NCF wording in the 2026 revision).
+Designed to fit continuous and formative assessment in Nepal's competency-based framework (NCF 2076).
 
 * **Starter quiz** (3 questions, recalled from the last lesson) — ungraded, retrieval practice.
 * **Unit quiz** (`quiz.yml`) — low-stakes, printable; answers in the teacher guide.

@@ -1,6 +1,6 @@
 # Grade 9 · Unit 3: SQL basics on district data
 
-> Track: B (code: SQL/SQLite) · Tools: SQLite via Python (JupyterLite, Jupyter or Colab) · Lessons: 5 · Version: 0.1 draft (English)
+> Track: B (code: SQL/SQLite) · Tools: SQLite via Python (JupyterLite, Jupyter or Colab) · Lessons: 5
 > Datasets: `census-districts`
 
 **Big idea.** SQL asks questions of tables in nearly plain English: choose columns, keep rows, order them, group them and join tables.

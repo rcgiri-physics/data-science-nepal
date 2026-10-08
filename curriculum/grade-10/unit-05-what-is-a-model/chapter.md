@@ -1,6 +1,6 @@
 # Grade 10 · Unit 5: What is a model? (and a first look at machine learning)
 
-> Track: A then B · Tools: paper cards, Python, numpy · Lessons: 3 · Version: 0.1 draft (English)
+> Track: A then B · Tools: paper cards, Python, numpy · Lessons: 3
 > Datasets: `health-synthetic`
 
 **Big idea.** A model is a simplified rule that predicts. We build one by finding patterns in examples and test it on examples it has not seen.

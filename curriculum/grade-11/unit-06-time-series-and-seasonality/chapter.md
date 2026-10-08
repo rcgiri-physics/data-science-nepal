@@ -1,6 +1,6 @@
 # Grade 11 · Unit 6: Time series and seasonality
 
-> Track: B (code) · Tools: Python, pandas, numpy · Lessons: 3 · Version: 0.1 draft (English)
+> Track: B (code) · Tools: Python, pandas, numpy · Lessons: 3
 > Datasets: `climate-monthly`
 
 **Big idea.** Separate the repeating seasonal cycle from the long-run trend before judging change; report the trend with uncertainty.

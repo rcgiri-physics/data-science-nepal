@@ -1,6 +1,6 @@
 # Grade 11 · Unit 8: Reproducibility, Git and the climate project
 
-> Track: B (project) · Tools: Python, Git, notebooks · Lessons: 3 · Version: 0.1 draft (English)
+> Track: B (project) · Tools: Python, Git, notebooks · Lessons: 3
 > Datasets: `climate-monthly`
 
 **Big idea.** Others (and your future self) should be able to rerun your work and get the same answer: seeds, environments, version control and clear notes.

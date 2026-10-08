@@ -1,6 +1,6 @@
 # Grade 10 · Unit 1: pandas deep-dive: cleaning a real-world series
 
-> Track: B (code) · Tools: Python, pandas · Lessons: 4 · Version: 0.1 draft (English)
+> Track: B (code) · Tools: Python, pandas · Lessons: 4
 > Datasets: `kathmandu-air-quality`
 
 **Big idea.** Most data work is preparation: parse dates, fix error codes, handle missing values, and summarise by time or group.

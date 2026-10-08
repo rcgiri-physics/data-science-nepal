@@ -1,6 +1,6 @@
 # Grade 9 · Unit 8: Grade 9 project: which districts are changing?
 
-> Track: A/B (project) · Tools: spreadsheet or SQL/pandas · Lessons: 2 · Version: 0.1 draft (English)
+> Track: A/B (project) · Tools: spreadsheet or SQL/pandas · Lessons: 2
 > Datasets: `census-districts`, `kathmandu-air-quality`
 
 **Big idea.** Put the PPDAC cycle together: ask, plan, wrangle, analyse and communicate a story from a district table.

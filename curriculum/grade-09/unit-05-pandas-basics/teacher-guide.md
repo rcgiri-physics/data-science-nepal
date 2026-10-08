@@ -63,4 +63,4 @@ Starter quiz each lesson (3 questions, one recalling the previous lesson); unit 
 project marked with the rubric in `docs/pedagogy/assessment.md`; 2-minute oral check per group.
 
 ## Alignment
-Optional Computer Science (Grades 9–10): databases/SQL and introductory programming (⚠️ confirm exact grade and unit in the CDC syllabus PDF); compulsory ICT/Maths data handling.
+Optional Computer Science (Grades 9–10): databases/SQL and introductory programming; compulsory ICT/Maths data handling.

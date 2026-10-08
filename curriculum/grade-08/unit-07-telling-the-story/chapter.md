@@ -1,6 +1,6 @@
 # Grade 8 · Unit 7: Telling the story
 
-> Track: A (no-code) · Tools: paper, poster paper · Lessons: 3 · Version: 0.1 draft (English)
+> Track: A (no-code) · Tools: paper, poster paper · Lessons: 3
 > Datasets: `class-survey-synthetic`, `census-districts`
 
 **Big idea.** Numbers matter when they support a claim people can check: claim, evidence, reasoning.

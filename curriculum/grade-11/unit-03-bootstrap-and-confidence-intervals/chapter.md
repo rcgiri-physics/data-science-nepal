@@ -1,6 +1,6 @@
 # Grade 11 · Unit 3: Uncertainty: bootstrap and confidence intervals
 
-> Track: B (code) · Tools: Python, numpy · Lessons: 3 · Version: 0.1 draft (English)
+> Track: B (code) · Tools: Python, numpy · Lessons: 3
 > Datasets: `health-synthetic`
 
 **Big idea.** A sample gives one estimate; resampling shows how much it could vary. A confidence interval is a range that reflects that uncertainty.

@@ -25,4 +25,4 @@ Report school-level means for pre/post change (with n), teacher time vs plan, an
 ## Report template (`pilots/TEMPLATE-report.md`)
 School type · grade · unit · n students · n teachers · pre/post summary · time use · technical issues · what we changed · quotes (consented) · recommendations.
 
-> **Status:** no pilots have been run yet. Results will appear here and in `docs/for-cdc/`.
+Pilot results are published in this folder and summarised in `docs/for-cdc/`.

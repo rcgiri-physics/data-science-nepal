@@ -1,6 +1,6 @@
 # Grade 8 · Unit 2: Asking good questions
 
-> Track: A (no-code) · Tools: paper · Lessons: 3 · Version: 0.1 draft (English)
+> Track: A (no-code) · Tools: paper · Lessons: 3
 > Datasets: `class-survey-synthetic`
 
 **Big idea.** A good statistical question can be answered with data and expects variation in the answers. How we ask changes what we learn.

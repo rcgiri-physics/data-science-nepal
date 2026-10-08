@@ -45,4 +45,4 @@ Starter quiz each lesson (3 questions, one recalling the previous lesson); unit 
 project marked with the rubric in `docs/pedagogy/assessment.md`; 2-minute oral check per group.
 
 ## Alignment
-Optional Computer Science Grade 10: Python programming, databases and AI & contemporary technology (⚠️ confirm unit numbers in the CDC syllabus PDF); compulsory Maths data handling/statistics.
+Optional Computer Science Grade 10: Python programming, databases and AI & contemporary technology; compulsory Maths data handling/statistics.

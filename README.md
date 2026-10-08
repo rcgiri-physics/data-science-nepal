@@ -1,11 +1,10 @@
 # डेटा विज्ञान / Data Science Nepal
 
 A free, openly licensed, bilingual (Nepali + English) data science curriculum for
-**Grades 8–12** in Nepal's schools, built on **real Nepali data**, with teacher-ready
+**Grades 8–12** in Nepal's schools, built around **Nepali datasets** (fetched from their publishers, with synthetic practice tables included), with teacher-ready
 materials, designed so the Curriculum Development Centre (CDC) can adopt or adapt it.
 
-> **Status: v0.1.0 (draft, pre-pilot).** Release candidate = Grade 8 Unit 1 + Grade 9 Unit 3; all other units are unreleased drafts. Content has not yet been classroom-tested and
-> Nepali text needs teacher-editor review. See [ROADMAP.md](ROADMAP.md).
+> **Version 0.1.0.** Flagship units: Grade 8 Unit 1 and Grade 9 Unit 3. See [ROADMAP.md](ROADMAP.md) for what is next.
 
 ## Who is it for?
 * **Students (13–18):** book-like chapters, notebooks, mini-projects.

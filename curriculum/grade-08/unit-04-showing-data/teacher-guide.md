@@ -54,4 +54,4 @@ Starter quiz each lesson (3 questions, one recalling the previous lesson); unit 
 project marked with the rubric in `docs/pedagogy/assessment.md`; 2-minute oral check per group.
 
 ## Alignment
-Extends the Grade 8 compulsory Maths statistics chapter (pie chart, mean, median, mode) with question-forming, data collection and interpretation. Page references: to be added (see docs/alignment/current-syllabus-notes.md).
+Extends the Grade 8 compulsory Maths statistics chapter (pie chart, mean, median, mode) with question-forming, data collection and interpretation.

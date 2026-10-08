@@ -1,6 +1,6 @@
 # Grade 9 · Unit 1: Tidy data and spreadsheets
 
-> Track: A/B (spreadsheet) · Tools: Calc/Sheets/Excel · Lessons: 3 · Version: 0.1 draft (English)
+> Track: A/B (spreadsheet) · Tools: Calc/Sheets/Excel · Lessons: 3
 > Datasets: `census-districts`
 
 **Big idea.** A spreadsheet is a table plus formulas. Data are easiest to analyse when each row is one thing, each column one variable and each cell one value.

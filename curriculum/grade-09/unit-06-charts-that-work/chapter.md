@@ -1,6 +1,6 @@
 # Grade 9 · Unit 6: Charts that work
 
-> Track: B (code: matplotlib) · Tools: Python, matplotlib · Lessons: 3 · Version: 0.1 draft (English)
+> Track: B (code: matplotlib) · Tools: Python, matplotlib · Lessons: 3
 > Datasets: `census-districts`
 
 **Big idea.** Choose the chart that fits the question — histogram for distribution, bar for categories, scatter for relationships — and label it honestly.

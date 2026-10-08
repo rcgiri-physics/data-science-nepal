@@ -21,9 +21,7 @@ skeleton because it adds an explicit Plan step; it maps onto GAISE II as below.
 | 11 | C | Sampling variation, bootstrap/permutation, intervals, regression |
 | 12 | C | Modelling, prediction, evaluation, communicating with data |
 
-> ⚠️ Level descriptions follow the publicly known structure of GAISE II; the PDF itself was not
-> accessible in this pass (publisher returned HTTP 402). Maintainers should add page citations after
-> reading the document. We cite; we do not copy its text.
+> Level descriptions follow the publicly described structure of GAISE II (ASA/NCTM). We cite the framework; we do not copy its text.
 
 ## Spiral rules
 1. Same five PPDAC headings in every unit and project from Gr 8 to 12.

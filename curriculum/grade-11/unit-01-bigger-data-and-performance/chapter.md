@@ -1,6 +1,6 @@
 # Grade 11 · Unit 1: Bigger data and performance basics
 
-> Track: B (code) · Tools: Python, pandas, SQLite · Lessons: 3 · Version: 0.1 draft (English)
+> Track: B (code) · Tools: Python, pandas, SQLite · Lessons: 3
 > Datasets: none
 
 **Big idea.** When tables reach hundreds of thousands of rows, how we store and ask matters: types, memory, indexes and vectorised operations.

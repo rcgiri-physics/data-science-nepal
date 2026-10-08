@@ -1,6 +1,6 @@
 # Grade 12 · Unit 8: Capstone with a community client
 
-> Track: B/A (project) · Tools: any (Python, spreadsheet, Streamlit); Git · Lessons: 3 · Version: 0.1 draft (English)
+> Track: B/A (project) · Tools: any (Python, spreadsheet, Streamlit); Git · Lessons: 3
 > Datasets: `health-synthetic`, `census-districts`, `kathmandu-air-quality`, `climate-monthly`
 
 **Big idea.** Real data science serves someone: a client with a question, a data agreement, responsible handling, and a public write-up.

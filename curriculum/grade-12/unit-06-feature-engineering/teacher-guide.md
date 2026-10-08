@@ -54,4 +54,4 @@ Starter quiz each lesson (3 questions, one recalling the previous lesson); unit 
 project marked with the rubric in `docs/pedagogy/assessment.md`; 2-minute oral check per group.
 
 ## Alignment
-Enrichment aligned to NEB Grade 12 Computer Science (programming, databases, emerging technologies) and Maths/Statistics (⚠️ add unit numbers after the NEB syllabus is read; see docs/for-cdc/competency-map.md).
+Enrichment aligned to NEB Grade 12 Computer Science (programming, databases, emerging technologies) and Maths/Statistics.

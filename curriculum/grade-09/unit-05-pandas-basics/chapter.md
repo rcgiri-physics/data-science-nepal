@@ -1,6 +1,6 @@
 # Grade 9 · Unit 5: Tables in pandas
 
-> Track: B (code: pandas) · Tools: Python, pandas · Lessons: 4 · Version: 0.1 draft (English)
+> Track: B (code: pandas) · Tools: Python, pandas · Lessons: 4
 > Datasets: `census-districts`
 
 **Big idea.** pandas holds a table in a DataFrame; we select, filter, sort and group with short commands — the same ideas as SQL.

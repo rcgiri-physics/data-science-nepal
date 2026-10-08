@@ -1,6 +1,6 @@
 # Grade 10 · Unit 8: Project: Air in my city
 
-> Track: B (project) · Tools: Python, pandas, matplotlib, optional Streamlit · Lessons: 2 · Version: 0.1 draft (English)
+> Track: B (project) · Tools: Python, pandas, matplotlib, optional Streamlit · Lessons: 2
 > Datasets: `kathmandu-air-quality`
 
 **Big idea.** Run the whole PPDAC cycle on a year of PM2.5: clean, analyse, conclude honestly and publish.
