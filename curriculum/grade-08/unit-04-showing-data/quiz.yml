@@ -1,0 +1,19 @@
+unit: grade-08/unit-04
+title: Showing data
+pre_post: true
+questions:
+- id: q1
+  lesson: 1
+  type: short
+  question: Which graph suits 'favourite subject'?
+  answer: A bar chart (categories).
+- id: q2
+  lesson: 2
+  type: short
+  question: Which graph shows change over days?
+  answer: A line graph.
+- id: q3
+  lesson: 3
+  type: short
+  question: Axis starts at 48 instead of 0 — effect?
+  answer: Small differences look huge.

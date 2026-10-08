@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this curriculum, please cite it as below."
+title: "Data Science for Nepal's Schools, Grades 8-12 (Data Science Nepal)"
+type: dataset
+authors:
+  - family-names: Giri
+    given-names: Ramchandra
+    email: rcgiri.physics@gmail.com
+version: 0.1.0
+date-released: 2026-10-07
+license: CC-BY-4.0
+keywords: [data science education, Nepal, curriculum, open educational resources]
+repository-code: "https://github.com/REPLACE-ME/data-science-nepal"

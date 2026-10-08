@@ -1,0 +1,19 @@
+unit: grade-09/unit-06
+title: Charts that work
+pre_post: true
+questions:
+- id: q1
+  lesson: 1
+  type: short
+  question: Bars or histogram for 'belt'?
+  answer: Bar chart (categorical).
+- id: q2
+  lesson: 2
+  type: short
+  question: What does the line in the box show?
+  answer: The median.
+- id: q3
+  lesson: 3
+  type: short
+  question: What does each dot represent?
+  answer: One district.

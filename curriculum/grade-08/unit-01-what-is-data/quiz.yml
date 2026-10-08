@@ -1,0 +1,19 @@
+unit: grade-08/unit-01
+title: What is data?
+pre_post: true
+questions:
+- id: q1
+  lesson: 1
+  type: short
+  question: Is 'favourite colour' numerical or categorical?
+  answer: Categorical.
+- id: q2
+  lesson: 2
+  type: short
+  question: Which organisation runs the national census?
+  answer: The National Statistics Office (NSO) of Nepal.
+- id: q3
+  lesson: 3
+  type: short
+  question: 'A table has columns: student_code, travel_mode, travel_minutes, height_cm. How many variables?'
+  answer: 4 (student_code is an ID; 3 are real variables).

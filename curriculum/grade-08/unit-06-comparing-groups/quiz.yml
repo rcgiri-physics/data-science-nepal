@@ -1,0 +1,20 @@
+unit: grade-08/unit-06
+title: Comparing groups
+pre_post: true
+questions:
+- id: q1
+  lesson: 1
+  type: short
+  question: 'District P: 900 of 1,800 children enrolled; Q: 600 of 1,000. Which has the higher enrolment
+    rate?'
+  answer: P 50%, Q 60% → Q.
+- id: q2
+  lesson: 2
+  type: short
+  question: What do you compute for each group before comparing?
+  answer: The same summary, e.g. the median.
+- id: q3
+  lesson: 3
+  type: short
+  question: '60% to 66%: change in percentage points?'
+  answer: 6 points.

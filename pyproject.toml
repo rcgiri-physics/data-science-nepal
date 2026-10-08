@@ -1,0 +1,10 @@
+[project]
+name = "data-science-nepal"
+version = "0.1.0"
+description = "Open Grades 8-12 data science curriculum for Nepal"
+requires-python = ">=3.10"
+dependencies = ["pandas>=2.0", "matplotlib>=3.7", "pyyaml>=6.0"]
+license = { text = "MIT (code); CC-BY-4.0 (content)" }
+
+[project.optional-dependencies]
+dev = ["nbformat", "nbclient", "ipykernel", "mkdocs", "mkdocs-material"]

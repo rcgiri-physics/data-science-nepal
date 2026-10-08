@@ -1,0 +1,19 @@
+unit: grade-09/unit-04
+title: First steps in Python
+pre_post: true
+questions:
+- id: q1
+  lesson: 1
+  type: short
+  question: minutes = [5, 20, 35]; minutes[0]?
+  answer: '5.'
+- id: q2
+  lesson: 2
+  type: short
+  question: What does 'for m in minutes' do?
+  answer: Repeats the indented steps once for each value m in the list.
+- id: q3
+  lesson: 3
+  type: short
+  question: What does return do?
+  answer: Sends a result back to where the function was called.

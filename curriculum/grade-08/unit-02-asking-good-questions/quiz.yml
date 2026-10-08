@@ -1,0 +1,19 @@
+unit: grade-08/unit-02
+title: Asking good questions
+pre_post: true
+questions:
+- id: q1
+  lesson: 1
+  type: short
+  question: Is 'What is the height of Mount Everest?' statistical?
+  answer: 'No: one fixed answer.'
+- id: q2
+  lesson: 2
+  type: short
+  question: Rewrite 'Isn't maths the best subject?' neutrally.
+  answer: '''Which subject do you like most?'' (with options).'
+- id: q3
+  lesson: 3
+  type: short
+  question: What is a population?
+  answer: The whole group we want to learn about.

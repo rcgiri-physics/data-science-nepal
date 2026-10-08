@@ -1,0 +1,19 @@
+unit: grade-08/unit-03
+title: Collecting and recording
+pre_post: true
+questions:
+- id: q1
+  lesson: 1
+  type: short
+  question: Why do we use codes instead of names?
+  answer: To protect privacy and avoid embarrassment.
+- id: q2
+  lesson: 2
+  type: short
+  question: Tally for 7 is…
+  answer: '|||| || (one group of five plus two).'
+- id: q3
+  lesson: 3
+  type: short
+  question: Why should every value in travel_minutes use minutes?
+  answer: Mixed units can't be compared or averaged.

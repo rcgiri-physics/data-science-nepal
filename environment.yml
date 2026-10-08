@@ -1,0 +1,14 @@
+name: dsnepal
+channels: [conda-forge]
+dependencies:
+  - python>=3.10
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - nbformat
+  - nbclient
+  - pyyaml
+  - pip
+  - pip:
+      - mkdocs
+      - mkdocs-material

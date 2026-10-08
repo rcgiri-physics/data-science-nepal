@@ -1,0 +1,24 @@
+unit: grade-09/unit-05
+title: Tables in pandas
+pre_post: true
+questions:
+- id: q1
+  lesson: 1
+  type: short
+  question: Which method shows the first rows?
+  answer: .head()
+- id: q2
+  lesson: 2
+  type: short
+  question: df[df['ecological_belt']=='Hill'] does what?
+  answer: Keeps only the Hill rows.
+- id: q3
+  lesson: 3
+  type: short
+  question: df['rate'] = 1000*df.a/df.b creates…
+  answer: A new column with a rate per 1,000.
+- id: q4
+  lesson: 4
+  type: short
+  question: groupby('belt').size() returns…
+  answer: The number of rows in each belt.

@@ -1,0 +1,37 @@
+- name: census-districts
+  grades:
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  synthetic: true
+  licence: 'Synthetic tables: CC0. Real preliminary census data on Open Data Nepal:
+    CC BY-SA (re-check final results terms)'
+- name: kathmandu-air-quality
+  grades:
+  - 9
+  - 10
+  - 11
+  synthetic: true
+  licence: 'Synthetic table: CC0. Real dataset: CC BY-SA per ODN listing (check OpenAQ
+    upstream terms)'
+- name: climate-monthly
+  grades:
+  - 10
+  - 11
+  - 12
+  synthetic: true
+  licence: 'Synthetic table: CC0. Real CCKP data: CC BY 4.0 (World Bank default)'
+- name: health-synthetic
+  grades:
+  - 11
+  - 12
+  synthetic: true
+  licence: CC0 (synthetic)
+- name: class-survey-synthetic
+  grades:
+  - 8
+  - 9
+  synthetic: true
+  licence: CC0 (synthetic)

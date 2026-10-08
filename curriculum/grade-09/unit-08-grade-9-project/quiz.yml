@@ -1,0 +1,14 @@
+unit: grade-09/unit-08
+title: 'Grade 9 project: which districts are changing?'
+pre_post: true
+questions:
+- id: q1
+  lesson: 1
+  type: short
+  question: What does a plan card contain?
+  answer: Question, variables, rate/denominator, data source, risks.
+- id: q2
+  lesson: 2
+  type: short
+  question: What are the three parts of a conclusion?
+  answer: Claim, evidence, reasoning (plus a limit).
