@@ -45,4 +45,4 @@ Legend: ✅ done and checked in this repo · 🟡 drafted, needs human review ·
 Teacher co-maintainer · statistician / university partner · Nepali-language editor · pilot schools · repo owner for GitHub org/Pages.
 
 ## Questions still for the owner
-GitHub account/org and public repo URL (replace `REPLACE-ME` in `CITATION.cff` and `ATTRIBUTION.md`) · pilot schools you can reach · whether to adopt the blog's branding.
+Owner to review decisions D11–D16 in `docs/decisions.md`; supply the GitHub account/org to replace `REPLACE-ME` (`CITATION.cff`, one dataset card), and name the pilot schools.

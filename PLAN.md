@@ -247,8 +247,8 @@ Each phase has deliverables and acceptance criteria. Execute in order; commit af
 - [ ] Verify licences for every dataset in §5 (open each portal, record licence text + URL + date); resolve all ⚠️.
 - [ ] Decide DHS strategy (§5) and health notebook data source.
 - [ ] Confirm toolchain: MkDocs Material + JupyterLite builds, pandas runs in browser; measure first-load size on a 2 Mbps connection.
-- [ ] **Decide with owner:** content licence (BY vs BY-SA), project name, GitHub org/repo name, Nepali-first vs English-first writing.
-- **Done when:** `docs/decisions.md` lists all decisions; no ⚠️ remain on MVP datasets.
+- [ ] Copy §12 decisions D1–D12 into `docs/decisions.md` and adjust any the Phase 0 checks overturn (esp. D4, D6).
+- **Done when:** `docs/decisions.md` exists; no ⚠️ remain on MVP datasets.
 
 ### Phase 1 — Skeleton + vertical slice
 - [ ] Create repo structure (§6), licence files, CITATION.cff, CONTRIBUTING, templates, CI workflows.
@@ -293,11 +293,21 @@ Each phase has deliverables and acceptance criteria. Execute in order; commit af
 
 ---
 
-## 12. Open questions for the owner
+## 12. Decisions (made by Claude on the owner's instruction "you decide everything" — owner to review and change)
 
-1. Content licence: **CC BY 4.0** (recommended) or CC BY-SA?
-2. Write Nepali-first or English-first (translate second)? Recommend *English draft + Nepali by a teacher-editor*, released together per unit.
-3. Pilot schools you already have access to?
-4. Which co-maintainers/partners (teacher, statistician, university) can you recruit?
-5. Is a Django capstone important to you, or is Streamlit/Flask acceptable?
-6. Should the repo carry the blog's brand/name, and which GitHub account/org will host it?
+| # | Decision | Reason | Easy to change? |
+|---|----------|--------|-----------------|
+| D1 | **Content licence: CC BY 4.0**; code MIT; data keeps its own licence | Attribution is legally required (your "mention me"), and CDC/NGOs can adopt without share-alike friction | Yes before v0.1; hard after others reuse it |
+| D2 | **English draft first, Nepali translation by a teacher-editor, released together per unit** (a unit isn't "released" without `.ne.md`) | Faster to write and review technical content; Nepali is mandatory for CDC adoption | Yes |
+| D3 | **Dashboards: Streamlit** (Flask as alternative); **Django = optional Grade 12 stretch only** | Lightweight, data-focused, runs on modest PCs | Yes |
+| D4 | **Python timing:** a short "first Python" taste in Grade 9 (after SQL), main Python in Grade 10 | Matches CDC syllabus as found (SQL in 9, Python in 10); verify in Phase 0 and shift if wrong | Yes, after Phase 0 check |
+| D5 | **Database: SQLite** for Grades 9–11; MySQL/PostgreSQL taught as concepts in 11–12 | No install, runs in browser, same SQL | Yes |
+| D6 | **Health data:** use aggregate published indicator tables if terms allow, otherwise a clearly labelled **synthetic dataset** with DHS-like structure; link teachers to DHS registration for real microdata | DHS bans redistribution | Yes |
+| D7 | **Stack:** MkDocs Material + JupyterLite + GitHub Pages + GitHub Actions; Colab buttons as secondary | Contributor-friendly, offline-capable, free | Yes |
+| D8 | **Name:** repo `data-science-nepal`, site title "Data Science Nepal (डेटा विज्ञान नेपाल)"; hosted first under the owner's personal GitHub account, move to an org once there are 2+ maintainers | Simple, searchable; avoids org overhead at start | Yes |
+| D9 | **Attribution line** (in README/ATTRIBUTION.md/CITATION.cff): "Data Science Nepal curriculum by Giri Ramchandra and contributors, CC BY 4.0, <blog URL>" | Satisfies "mention me" | Yes |
+| D10 | **Pilot schools:** none assumed. Recruit 3–5 via CoSoG Nepal, Code for Nepal, personal contacts; mix of urban/rural and internet/no-internet | — | Owner may already have schools |
+| D11 | **Co-maintainers:** aim for one teacher, one statistician/university contact, one Nepali-language editor by v0.3 | Review quality and CDC credibility | Owner decides who |
+| D12 | **Scope guard:** v0.1 = Grade 8 Unit 1 + Grade 9 Unit 3 + 3 datasets + working site; no new units before the vertical slice passes review | Prevents building much content on unverified assumptions | Yes |
+
+> Remaining items only the owner can supply: real pilot schools, blog URL, GitHub username, and any contacts at CDC/CEHRD.

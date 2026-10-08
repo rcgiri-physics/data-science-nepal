@@ -25,3 +25,13 @@ See [alignment/dataset-licence-register.md](alignment/dataset-licence-register.m
   process and level structure; add page references after reading the PDF.
 * Pilot schools, teacher PD sessions, Nepali editorial review, CDC submission.
 * Measuring JupyterLite first-load time on a 2 Mbps link.
+
+## Owner delegated all remaining decisions (2026-10-08) — to be reviewed by the owner
+| # | Question | Decision | Reason |
+|---|---|---|---|
+| D11 | Branding | Project name only ("Data Science Nepal / डेटा विज्ञान"); the maintainer's blog is linked, not used as the brand | Neutral name suits CDC and partners |
+| D12 | Hosting account | Not decided by the assistant: needs the owner's GitHub account/org (`REPLACE-ME` in `CITATION.cff`, one dataset card) | Publishing is outward-facing; nothing was pushed or published |
+| D13 | Pilot schools | Start with 3 convenience schools the maintainer can reach (1 urban private, 1 urban public, 1 rural public), first units G8 U1 and G9 U3 | Smallest pilot that tests both tracks |
+| D14 | Co-maintainer recruitment | Ask CoSoG Nepal for a teacher, a Kathmandu University statistician, and a Nepali-language editor | Matches GOVERNANCE.md roles |
+| D15 | Release policy | `v0.x` until pilot evidence exists; `v1.0` only afterwards | Avoids claiming unproven impact to CDC |
+| D16 | Lesson count | Keep 123 lessons in v0.1; add lessons only where pilots show gaps | Quality over quantity |
