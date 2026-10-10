@@ -20,5 +20,10 @@ swap in the real census table after `python tools/fetch_data.py census-districts
 
 Flagship project: **Which districts are changing? — census-style table to poster plus a simple SQL report**
 
+Every chapter now has detailed explanations with worked examples (all SQL and Python in the chapters is run in CI by
+`tools/check_chapter_code.py`), common mistakes, a unit summary, **practice exercises** (★/★★/★★★, answers in the
+teacher guide) and **exercises with real data** from [`docs/datasets/free-datasets.md`](../../docs/datasets/free-datasets.md),
+each with an offline fallback. Unit 8 ends with a "ready for Grade 10?" checklist.
+
 Each unit folder holds: `chapter.md` (student), `teacher-guide.md`, `project.md`, `quiz.yml`, `datasets.yml`
 (and `notebooks/` where code is used). Nepali chapters: see `community/translations/STATUS.md`.

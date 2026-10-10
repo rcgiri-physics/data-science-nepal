@@ -56,3 +56,32 @@ project marked with the rubric in `docs/pedagogy/assessment.md`; 2-minute oral c
 
 ## Alignment
 Optional Computer Science (Grades 9–10): databases/SQL and introductory programming; compulsory ICT/Maths data handling.
+
+## Answers: practice exercises
+1. 20.
+2. `"Mon"`, `"Wed"`, `4`, `["Mon", "Tue"]`.
+3. `=` assigns; comparison needs `==`; also the body should be on its own indented line:
+   `if age == 14:` newline, 4 spaces, `print("Grade 9")`.
+4. `for m in [5, 12, 30, 45]:` → `print(round(m / 60, 2))` → 0.08, 0.2, 0.5, 0.75.
+5. `count = 0`, loop, `if mode == "walk": count = count + 1` → 3. (Or `modes.count("walk")`.)
+6. `def percent(part, whole): return part / whole * 100`; `assert round(percent(26, 36), 1) == 72.2`.
+7. `s = [1, 5, 7, 9]`, `n = 4`, `middle = 2`, even → `(s[1] + s[2]) / 2 = (5 + 7) / 2 = 6.0`.
+8. ```
+   def my_mode(values):
+       best, best_count = None, 0
+       for v in values:
+           if values.count(v) > best_count:
+               best, best_count = v, values.count(v)
+       return best
+   ```
+   (Ties: returns the first value reaching the highest count — discuss.)
+9. `(f - 32) * 5 / 9` → 15.0, 20.0, 30.0, 40.0.
+10. `count = 0` inside the loop resets the counter every time, so the function returns 1 or 0 (only the last value
+    counts). Move it above the loop. Test: `assert count_long([10, 50, 60], 30) == 2` (the buggy version returns 1).
+
+## Real-data exercises: notes
+* **R1** Check units (°C) and that students write the source and dates.
+* **R2** From the 2015 USGS list (2026-10-11): 7.8, 7.3, 6.7, 6.6, 6.3, 6.1 are ≥ 6.0 (6 values); the next nine are
+  5.0–5.9 (values vary slightly with catalogue revisions).
+* **R3** `def percent_change(old, new): return (new - old) / old * 100`; watch for division by zero if a price is
+  missing (0).

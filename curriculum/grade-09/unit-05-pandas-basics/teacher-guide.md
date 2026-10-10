@@ -64,3 +64,31 @@ project marked with the rubric in `docs/pedagogy/assessment.md`; 2-minute oral c
 
 ## Alignment
 Optional Computer Science (Grades 9–10): databases/SQL and introductory programming; compulsory ICT/Maths data handling.
+
+## Answers: practice exercises
+1. `df[["district", "province", "population"]].head(10)`.
+2. `len(df[df["province"] == 2])` → 3; `df.groupby("province").size()[2]` → 3.
+3. `df["population"].median()` → 298,351.
+4. `df[(df["ecological_belt"] == "Terai") & (df["population"] > 600000)].sort_values("population", ascending=False)`
+   → 12 districts from Terai-09 (1,607,726) to Terai-22 (609,934). SQL: `SELECT * FROM districts WHERE
+   ecological_belt = 'Terai' AND population > 600000 ORDER BY population DESC;`
+5. `df["male_share"] = df["male"] / df["population"]`; highest: Terai-03 (0.515).
+6. `df.groupby("ecological_belt")["literacy_pct"].agg(["min", "max"])` → Hill 64.6–83.6, Mountain 62.6–73.7,
+   Terai 61.3–78.1.
+7. Sum population and households per province, divide: province 7 (4.72) is largest; province 1 smallest (4.33).
+8. `df.assign(above=df["literacy_pct"] > df["literacy_pct"].median()).groupby("ecological_belt")["above"].sum()` →
+   Hill 32, Mountain 1, Terai 4 (True counts as 1).
+9. The first returns a sorted copy that is shown and then lost; the second replaces `df` with the sorted copy.
+10. `def top_n(df, column, n): return df.sort_values(column, ascending=False).head(n)[["district", column]]`;
+    `top_n(df, "population", 3)` → Terai-09, Terai-17, Terai-15.
+
+Lesson 4 Make: weighted people abroad per 1,000 by province: 6 highest (94.1), then 4 (89.7); province 2 lowest
+(56.2).
+
+## Real-data exercises: notes
+* **R1** Column names in the ODN file must be checked first (`df.columns`); some files have spaces or units in
+  names — rename with `df.columns = [...]` or `df.rename(columns={...})`.
+* **R2** Typical columns: `SN, Commodity, Date, Unit, Minimum, Maximum, Average`; convert `Date` with
+  `pd.to_datetime` and use `df["Date"].dt.year`. Expect a few seconds to load.
+* **R3** The "South Asia" aggregate is population-weighted (dominated by India), while the mean of 8 countries
+  weights each equally.
