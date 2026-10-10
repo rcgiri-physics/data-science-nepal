@@ -72,6 +72,8 @@ before you publish anything. Status: ✅ open licence confirmed · ⚠️ use in
   `population` (note: it starts at year −10000, a nice cleaning surprise), `share-of-individuals-using-the-internet`,
   `mobile-cellular-subscriptions-per-100-people`, `share-of-population-urban`, `gdp-per-capita-worldbank`.
   Some charts ignore the country filter and return every country; then filter for `Nepal` yourself.
+* **In Python:** OWID refuses requests without a browser-like user agent (HTTP 403). Use
+  `pd.read_csv(url, storage_options={"User-Agent": "Mozilla/5.0 (school project)"})`.
 * **Licence:** CC BY 4.0 for OWID's own work; the chart page names the underlying source. Credit both.
 * **Offline fallback:** `datasets/climate-monthly/clean/climate_monthly_synthetic.csv` for time-series practice.
 
