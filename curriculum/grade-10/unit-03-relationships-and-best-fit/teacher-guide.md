@@ -55,3 +55,33 @@ project marked with the rubric in `docs/pedagogy/assessment.md`; 2-minute oral c
 
 ## Alignment
 Optional Computer Science Grade 10: Python programming, databases and AI & contemporary technology; compulsory Maths data handling/statistics.
+
+## Answers: practice exercises
+1. (a) hours studied (b) altitude (c) rainfall.
+2. ŷ = 25; residual = 22 − 25 = −3.
+3. Any curve such as a U-shape (points at (−2, 4), (−1, 1), (0, 0), (1, 1), (2, 4)) has *r* = 0.
+4. *b* = 0.8 × 10 ÷ 4 = 2.0; *a* = 50 − 2 × 20 = 10 → ŷ = 10 + 2*x*.
+5. Slope −0.006 °C per metre (−0.6 °C per 100 m). 25 − 0.006 × (1,400 − 70) ≈ 17 °C. Wrong because of local effects:
+   valleys, slope aspect, cloud and rain shadow, latitude; the lapse rate varies by season.
+6. Jan–Jun slope ≈ −17.4 µg/m³ per month (falls into the monsoon); intercept ≈ 119. Over 12 months the pattern goes
+   down then up (U-shape), so a straight line fits badly.
+7. *r²* ≈ 0.97: the line accounts for about 97% of the day-to-day variation in PM10 in this synthetic data.
+8. Sleep improves concentration (cause); students with fewer worries/better home conditions both sleep and study more
+   (confounding); students who do well feel less stress and sleep better (reverse). An experiment (randomly encourage
+   one group to sleep earlier) or comparing the same students across weeks helps.
+9. Regressing *y* on *x* minimises vertical misses; *x* on *y* minimises horizontal misses — different lines unless
+   *r* = ±1.
+10. *r* = 0.90 (by hand and pandas).
+
+Lesson 1 step 3: one fake point (10, 400) drops *r* from 0.986 to 0.953. Lesson 3 step 1: all months *r* = 0.67;
+monsoon months only 0.33; dry months only 0.02 — the season explains most of the overall correlation.
+Lesson 2 predictions: PM2.5 40 → PM10 ≈ 66; 100 → ≈ 165; typical residual (SD) ≈ 9 µg/m³.
+
+## Real-data exercises: notes
+* **R1** Roughly +5 to +8 years of life expectancy for each tenfold income increase in recent data; Nepal typically
+  lives **longer** than its income predicts (positive residual) — a nice discussion of public health, remittances
+  and other factors.
+* **R2** Expect around −0.5 to −0.65 °C per 100 m; Jomsom (rain-shadow, windy valley) and Kathmandu (valley basin)
+  may have notable residuals. Open-Meteo's grid smooths mountains, so high towns may look warmer than station data.
+* **R3** Strong positive relationship. Plausible: lower child mortality → parents choose fewer children; also
+  education, income and contraception access drive both (confounding).

@@ -55,3 +55,29 @@ project marked with the rubric in `docs/pedagogy/assessment.md`; 2-minute oral c
 
 ## Alignment
 Optional Computer Science Grade 10: Python programming, databases and AI & contemporary technology; compulsory Maths data handling/statistics.
+
+## Answers: practice exercises
+1. User: principal; question: "Which classes had the lowest attendance this month?"; decision: whom to follow up;
+   10-second view: school attendance % this month and a bar chart by class.
+2. `st.metric` shows one big number (with optional change); `st.line_chart` draws a chart from a table/series.
+3. So the code can be written top-to-bottom like a normal script; each run uses the widgets' current values — no
+   complicated event handling.
+4. Title = question; metric: belt or national rate; main chart: horizontal bars of the top 10 districts by rate; widget:
+   belt or province selector; note: synthetic data.
+5. `belt = st.selectbox("Ecological belt", sorted(df["ecological_belt"].unique()))` and
+   `st.metric("Districts in belt", int((df["ecological_belt"] == belt).sum()))`.
+6. `st.metric("Mean PM2.5, 2020 (µg/m³)", "52.8")` (plus "synthetic" in the caption).
+7. A long default smoothing window that hides peaks; auto-scaled y-axes that exaggerate small changes; a flattering
+   default period or place.
+8. Do not offer downloads of personal/sensitive data or data whose licence forbids redistribution (e.g. DHS); credit and
+   licence must travel with any download.
+9. Show only aggregated counts/rates by belt or district with a small-group rule; never individual records, ages with
+   locations, or anything identifying.
+10. Poster: works offline, one clear message, easy to print; dashboard: users explore their own question, updates with
+    new data. (Poster: fixed; dashboard: needs a device and internet.)
+
+## Real-data exercises: notes
+* **R1** Check that share-alike is acknowledged and that the app does not re-host the full raw dataset publicly unless
+  the maintainers agree (D7/D8).
+* **R2–R3** Encourage saving downloaded CSVs locally and loading them with `@st.cache_data`; don't call APIs on every
+  rerun (Open-Meteo free tier limits).
