@@ -55,3 +55,30 @@ project marked with the rubric in `docs/pedagogy/assessment.md`; 2-minute oral c
 
 ## Alignment
 Enrichment aligned to NEB Grade 12 Computer Science (programming, databases, emerging technologies) and Maths/Statistics.
+
+## Answers: practice exercises
+1. `df["persons_per_household"] = df["population"] / df["households"]`.
+2. 6 columns (7 provinces minus the reference).
+3. Population is right-skewed (27,000 to 1.6 million); a log makes differences relative ("10 times bigger") and stops a
+   few large districts dominating a linear model.
+4. Facility-delivery rate: < 20: 0.466 (234 women); 20–34: 0.441 (811); 35+: 0.429 (455) — small differences in this
+   synthetic data (age was not built into the generator).
+5. B + interaction: 0.603 ± 0.025 vs B 0.607 ± 0.024 — no meaningful change.
+6. Month, weekday, winter flag and yesterday's PM2.5 are all known today for predicting tomorrow; "PM2.5 today" is also
+   fine if the prediction is made after today's reading; anything from tomorrow would be leakage.
+7. Trees split on one column at a time; a full set of one-hot columns causes no algebraic problem (there is no solving
+   of a linear system), and keeping all categories can make splits clearer.
+8. ColumnTransformer version: 0.605 vs set D 0.606 — they should match closely (same information; small differences
+   from where scaling is applied).
+9. Leakage: the follow-up visit probably happened because of (or after) the delivery outcome, or is recorded only for
+   certain outcomes. Check when the column is filled in, and test the model with it removed.
+10. e.g. rain in the past 3 days, humidity change from yesterday, monsoon-month flag; compare with time-ordered CV
+    (train on earlier periods, validate on later), report mean ± SD.
+
+Lesson 2 step 3: CV accuracy with numeric belt code 0.602 vs one-hot ≈ 0.605 — close because belt adds little beyond
+visits and wealth in this synthetic data; the coding is still conceptually wrong, as the regression in the lesson shows.
+
+## Real-data exercises: notes
+* **R1** Bill length ÷ depth separates Gentoo from the others strongly; island one-hot helps Adelie vs Chinstrap.
+* **R2** log₁₀ GDP gives clearly lower MAE: the relationship is roughly linear in log income.
+* **R3** Festival flags must be built from the BS calendar dates for each year; last week's price usually dominates.
