@@ -18,6 +18,12 @@ or on data generated inside the notebook.
 | 7 | [Maps and geospatial thinking](unit-07-maps-and-geospatial-thinking/chapter.md) | 3 | B (code, light) | Where is it worst? |
 | 8 | [Reproducibility, Git and the climate project](unit-08-reproducibility-and-climate-project/chapter.md) | 3 | B (project) | Climate or weather? |
 
+Every chapter now has detailed explanations with worked examples (all Python and SQL in the chapters is run in CI by
+`tools/check_chapter_code.py`), common mistakes, a unit summary, **practice exercises** (★/★★/★★★, answers in the
+teacher guide) and **exercises with real data** from [`docs/datasets/free-datasets.md`](../../docs/datasets/free-datasets.md),
+each with an offline fallback. Unit 8 ends with a "ready for Grade 12?" checklist.
+
+
 Flagship project: **Climate or weather? — detect a trend in Nepal climate data, with uncertainty**
 
 Each unit folder holds: `chapter.md` (student), `teacher-guide.md`, `project.md`, `quiz.yml`, `datasets.yml`
