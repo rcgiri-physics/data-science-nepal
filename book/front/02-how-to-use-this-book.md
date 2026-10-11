@@ -32,8 +32,8 @@ Each of the 40 chapters (8 per grade) follows the same pattern, so you always kn
    from Grade 9. Type the code; don't copy and paste it.
 4. **Do the Check questions without looking back.** Then check. This "retrieval practice" is one of the most powerful
    study methods known (see *After Grade 12: how to study*).
-5. **Do at least the ★ and ★★ exercises.** Answers to selected exercises are in the teacher edition; with a friend, swap
-   and check each other's work.
+5. **Do at least the ★ and ★★ exercises.** Answers to every ★ exercise are in Appendix G (student edition); the
+   teacher edition has answers to all exercises. With a friend, swap and check each other's work.
 6. **Do the real-data exercises** whenever you have internet; they turn practice into real discoveries about Nepal.
 7. **Do the unit project.** Projects are where you put the pieces together. Keep them in a folder: by Grade 12 you will
    have a portfolio.
@@ -87,6 +87,6 @@ World in Data in Grade 8 Unit 4).
 
 ## Two editions
 
-* **Student edition** — everything above, without the teacher guides.
+* **Student edition** — everything above, without the teacher guides, plus answers to the ★ exercises (Appendix G).
 * **Teacher edition** — adds each unit's teacher guide (timings, misconceptions, answers to all exercises and notes on the
   real-data exercises) and the teaching handbook.

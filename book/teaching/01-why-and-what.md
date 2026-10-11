@@ -1,9 +1,3 @@
-# Teaching data-science foundations (Grades 8–12)
-
-This part of the book is for **teachers**, head teachers, teacher trainers and curriculum planners. It explains how to
-build a solid foundation in data science across five years of secondary school, in Nepal's real classrooms — including
-those with one computer, no internet and fifty students.
-
 # 1. Why teach data science at school — and what "foundation" means
 
 ## Why now, why here
