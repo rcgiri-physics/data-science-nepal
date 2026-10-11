@@ -1,7 +1,8 @@
 """CI gate: every unit folder is complete and consistent.
 
 Checks per unit: chapter.md, teacher-guide.md, project.md, quiz.yml, datasets.yml exist; quiz is valid YAML with questions;
-every dataset named in datasets.yml has a dataset card; every notebook mentioned in chapter.md exists.
+every dataset named in datasets.yml has a dataset card; every notebook mentioned in chapter.md exists; chapters have the
+summary, practice, real-data and project sections; teacher guides answer the practice exercises.
 Run: python tools/check_units.py
 """
 from __future__ import annotations
@@ -14,6 +15,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 REQUIRED = ["chapter.md", "teacher-guide.md", "project.md", "quiz.yml", "datasets.yml"]
+NEW_SECTIONS = ["## Unit summary", "## Practice exercises", "## Exercises with real data", "## Unit project"]
 
 
 def main() -> int:
@@ -37,8 +39,13 @@ def main() -> int:
             for nb in re.findall(r"`notebooks/([\w\-]+\.ipynb)`", text):
                 if not (u / "notebooks" / nb).exists():
                     problems.append(f"{rel}: chapter mentions missing notebook {nb}")
-            if "## Unit project" not in text:
-                problems.append(f"{rel}: chapter lacks the PPDAC project section")
+            for heading in NEW_SECTIONS:
+                if heading not in text:
+                    problems.append(f"{rel}: chapter lacks the '{heading}' section")
+        if (u / "teacher-guide.md").exists():
+            guide = (u / "teacher-guide.md").read_text(encoding="utf-8")
+            if "## Answers: practice exercises" not in guide:
+                problems.append(f"{rel}: teacher guide lacks answers to the practice exercises")
     if problems:
         print("Unit problems:")
         for p in problems:

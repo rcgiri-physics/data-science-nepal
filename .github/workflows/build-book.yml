@@ -1,0 +1,27 @@
+name: Build book PDFs
+on:
+  push:
+    branches: [main]
+    paths: ["book/**", "curriculum/**", "docs/datasets/**", "datasets/**", "tools/build_book.py"]
+  workflow_dispatch:
+
+jobs:
+  book:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Fonts for Devanagari and the tally symbol
+        run: sudo apt-get update && sudo apt-get install -y fonts-noto-core fonts-noto-cjk
+      - run: pip install -r requirements.txt
+      - name: Build student and teacher editions (Chrome is preinstalled on the runner)
+        run: python tools/build_book.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: data-science-nepal-book
+          path: |
+            dist/data-science-nepal-student.pdf
+            dist/data-science-nepal-teacher.pdf

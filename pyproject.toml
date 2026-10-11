@@ -7,4 +7,4 @@ dependencies = ["pandas>=2.0", "matplotlib>=3.7", "pyyaml>=6.0", "scikit-learn>=
 license = { text = "MIT (code); CC-BY-4.0 (content)" }
 
 [project.optional-dependencies]
-dev = ["nbformat", "nbclient", "ipykernel", "mkdocs", "mkdocs-material"]
+dev = ["nbformat", "nbclient", "ipykernel", "mkdocs", "mkdocs-material", "markdown", "pypdf"]
