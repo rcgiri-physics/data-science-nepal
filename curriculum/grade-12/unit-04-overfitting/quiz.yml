@@ -8,12 +8,42 @@ questions:
   question: Training error with more complexity…
   answer: Falls (or stays equal).
 - id: q2
+  lesson: 1
+  type: short
+  question: Test error with too much complexity…
+  answer: Rises (overfitting).
+- id: q3
+  lesson: 1
+  type: short
+  question: What is noise?
+  answer: Random variation unrelated to the pattern.
+- id: q4
   lesson: 2
   type: short
   question: Which data choose complexity?
   answer: Validation data.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: Why not test data?
+  answer: It would no longer be unseen.
+- id: q6
+  lesson: 2
+  type: short
+  question: What is cross-validation?
+  answer: Repeating train/validation splits to average the error.
+- id: q7
   lesson: 3
   type: short
   question: When do simple models shine?
   answer: With little or noisy data.
+- id: q8
+  lesson: 3
+  type: short
+  question: Why prefer explainable models in public service?
+  answer: People can check and challenge decisions.
+- id: q9
+  lesson: 3
+  type: short
+  question: Is overfitting only a polynomial problem?
+  answer: 'No: all flexible models can overfit.'

@@ -8,12 +8,42 @@ questions:
   question: In the district table, what is one row?
   answer: One district.
 - id: q2
+  lesson: 1
+  type: short
+  question: Why avoid '45 min' in a cell?
+  answer: It becomes text; use 45 and put 'min' in the header.
+- id: q3
+  lesson: 1
+  type: short
+  question: Why avoid merged cells?
+  answer: They break sorting, filtering and formulas.
+- id: q4
   lesson: 2
   type: short
   question: Formula for the sum of C2:C78?
   answer: =SUM(C2:C78)
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: What does COUNTIF(B2:B78,"Hill") do?
+  answer: Counts the rows where column B equals Hill.
+- id: q6
+  lesson: 2
+  type: short
+  question: Why use ranges instead of typing numbers?
+  answer: Formulas update automatically if data change.
+- id: q7
   lesson: 3
   type: short
   question: Which tool answers 'total population for each belt'?
   answer: A pivot table (group by belt, sum population).
+- id: q8
+  lesson: 3
+  type: short
+  question: A filter on belt = Hill does what?
+  answer: Shows only Hill rows (it does not delete the rest).
+- id: q9
+  lesson: 3
+  type: short
+  question: A pivot table in SQL is closest to…
+  answer: GROUP BY.

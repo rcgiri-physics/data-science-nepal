@@ -8,12 +8,42 @@ questions:
   question: False negative means…
   answer: The model said 'no' but the truth was 'yes' (a missed case).
 - id: q2
+  lesson: 1
+  type: short
+  question: False positive means…
+  answer: The model said 'yes' but the truth was 'no'.
+- id: q3
+  lesson: 1
+  type: short
+  question: Rows+columns sum to…
+  answer: The total number of cases.
+- id: q4
   lesson: 2
   type: short
   question: Precision formula?
   answer: TP ÷ (TP + FP).
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: Recall formula?
+  answer: TP ÷ (TP + FN).
+- id: q6
+  lesson: 2
+  type: short
+  question: Why can accuracy mislead?
+  answer: With rare positives, always saying 'no' scores high but finds nobody.
+- id: q7
   lesson: 3
   type: short
   question: Lower threshold → recall?
   answer: Rises (and precision usually falls).
+- id: q8
+  lesson: 3
+  type: short
+  question: Who decides the costs?
+  answer: People responsible, with affected communities.
+- id: q9
+  lesson: 3
+  type: short
+  question: What capacity limit matters?
+  answer: How many cases can actually be followed up.

@@ -8,12 +8,42 @@ questions:
   question: What does shuffling labels imitate?
   answer: Groups being interchangeable (no real difference).
 - id: q2
+  lesson: 1
+  type: short
+  question: What do we compare to?
+  answer: The observed difference.
+- id: q3
+  lesson: 1
+  type: short
+  question: What is chance variation?
+  answer: Differences that arise from random assignment alone.
+- id: q4
   lesson: 2
   type: short
   question: p-value = ?
   answer: Share of shuffled differences as extreme as the observed.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: Why 5,000 shuffles?
+  answer: More shuffles give a steadier estimate.
+- id: q6
+  lesson: 2
+  type: short
+  question: What does a tiny p-value suggest?
+  answer: Chance alone rarely produces such a difference.
+- id: q7
   lesson: 3
   type: short
   question: Does small p show a large effect?
   answer: 'No: check the effect size.'
+- id: q8
+  lesson: 3
+  type: short
+  question: Does large p show no difference?
+  answer: 'No: maybe too little data.'
+- id: q9
+  lesson: 3
+  type: short
+  question: What else to report?
+  answer: Effect size, interval, how data were collected.

@@ -8,12 +8,42 @@ questions:
   question: What is training data?
   answer: Examples the model learns from.
 - id: q2
+  lesson: 1
+  type: short
+  question: Why keep test data hidden?
+  answer: To check it works on cases it has not seen.
+- id: q3
+  lesson: 1
+  type: short
+  question: Which cards are 'nearest'?
+  answer: The ones with the closest values on the features.
+- id: q4
   lesson: 2
   type: short
   question: What is a baseline?
   answer: A very simple rule to beat, e.g. always the majority.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: Why test on unseen data?
+  answer: Training accuracy can flatter the model.
+- id: q6
+  lesson: 2
+  type: short
+  question: k = 1 problem?
+  answer: Follows noise; may overfit.
+- id: q7
   lesson: 3
   type: short
   question: Can a model be unfair?
   answer: 'Yes: it can copy bias in the training data.'
+- id: q8
+  lesson: 3
+  type: short
+  question: Name a high-stakes use needing caution.
+  answer: e.g. health care, loans, scholarships.
+- id: q9
+  lesson: 3
+  type: short
+  question: Who should decide?
+  answer: People accountable for the outcome, not the model alone.

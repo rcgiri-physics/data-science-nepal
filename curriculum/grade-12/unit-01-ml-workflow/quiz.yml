@@ -8,12 +8,42 @@ questions:
   question: What is the label?
   answer: The thing we want to predict.
 - id: q2
+  lesson: 1
+  type: short
+  question: What are features?
+  answer: The inputs used to predict.
+- id: q3
+  lesson: 1
+  type: short
+  question: Why describe the decision?
+  answer: A good model for the wrong decision can still harm.
+- id: q4
   lesson: 2
   type: short
   question: Which set do we use to choose between models?
   answer: Validation.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: Which set do we use only once?
+  answer: Test.
+- id: q6
+  lesson: 2
+  type: short
+  question: Accuracy of always predicting the majority class is…
+  answer: The baseline.
+- id: q7
   lesson: 3
   type: short
   question: What is data leakage?
   answer: Information from outside the training data (e.g. test rows) influencing training.
+- id: q8
+  lesson: 3
+  type: short
+  question: Why use a pipeline?
+  answer: It keeps preprocessing inside training only.
+- id: q9
+  lesson: 3
+  type: short
+  question: What if the model barely beats baseline?
+  answer: It adds little; reconsider features or the task.

@@ -19,8 +19,8 @@ Where the project is heading and where contributors can help. See [CONTRIBUTING.
 * **Classroom pilots** in 3–5 schools (urban/rural, public/private, with/without internet); results published in `pilots/`.
 * **Nepali** versions of the remaining units, reviewed by teachers (`community/translations/`); update the two existing
   Nepali chapters to the expanded text; review the new glossary terms (marked †).
-* **Quizzes**: grow each unit quiz to at least six questions matching the expanded chapters.
-* **Notebooks**: add a real-data exercise cell where licences allow.
+* **Quizzes**: add interpretation questions beyond the Check questions (every unit quiz now has 6–15).
+* **Notebooks**: worked real-data notebooks for datasets whose licences allow classroom copies.
 * **Real data**: add fetch links and checksums for each dataset's original source (`tools/fetch_data.py`), with the licence text copied into the dataset card.
 * **Alignment**: page-level references to the CDC and NEB syllabi in `docs/for-cdc/competency-map.md`.
 * **More lessons** where pilots show gaps; sketchnotes and printable PDFs.

@@ -8,12 +8,42 @@ questions:
   question: Seasonal indices sum to…
   answer: About 0 (if defined relative to the mean).
 - id: q2
+  lesson: 1
+  type: short
+  question: Why de-seasonalise?
+  answer: To see the trend without the yearly cycle.
+- id: q3
+  lesson: 1
+  type: short
+  question: Is a cold January evidence against warming?
+  answer: 'No: weather varies.'
+- id: q4
   lesson: 2
   type: short
   question: Slope 0.03/yr → per decade?
   answer: 0.3.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: Why try different start years?
+  answer: To test sensitivity.
+- id: q6
+  lesson: 2
+  type: short
+  question: Short series risk?
+  answer: Unreliable trend.
+- id: q7
   lesson: 3
   type: short
   question: Why resample whole years?
   answer: Months within a year are related.
+- id: q8
+  lesson: 3
+  type: short
+  question: Interval excludes 0 means…
+  answer: A non-zero trend is likely in this series.
+- id: q9
+  lesson: 3
+  type: short
+  question: Does it prove cause?
+  answer: 'No: it describes the trend, not the reason.'

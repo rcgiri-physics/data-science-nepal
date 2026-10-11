@@ -8,12 +8,42 @@ questions:
   question: Is 'favourite colour' numerical or categorical?
   answer: Categorical.
 - id: q2
+  lesson: 1
+  type: short
+  question: Give one numerical variable about your school.
+  answer: Any measured/counted one, e.g. number of students in Grade 8.
+- id: q3
+  lesson: 1
+  type: short
+  question: Why is a ward number categorical even though it looks like a number?
+  answer: It is a label; adding or averaging ward numbers means nothing.
+- id: q4
   lesson: 2
   type: short
   question: Which organisation runs the national census?
   answer: The National Statistics Office (NSO) of Nepal.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: Why should we ask 'who collected this data and why'?
+  answer: Purpose and method affect what is included and whether we can trust it.
+- id: q6
+  lesson: 2
+  type: short
+  question: Name one thing a school could measure itself.
+  answer: e.g. daily attendance, rainfall in a rain gauge, travel time.
+- id: q7
   lesson: 3
   type: short
   question: 'A table has columns: student_code, travel_mode, travel_minutes, height_cm. How many variables?'
   answer: 4 (student_code is an ID; 3 are real variables).
+- id: q8
+  lesson: 3
+  type: short
+  question: Which of those are numerical?
+  answer: travel_minutes and height_cm.
+- id: q9
+  lesson: 3
+  type: short
+  question: What does one row represent?
+  answer: One student.

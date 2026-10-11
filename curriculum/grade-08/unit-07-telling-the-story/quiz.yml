@@ -8,12 +8,42 @@ questions:
   question: What is evidence?
   answer: Data (numbers, graph) that support the claim.
 - id: q2
+  lesson: 1
+  type: short
+  question: What does reasoning add?
+  answer: It explains how the evidence supports the claim and its limits.
+- id: q3
+  lesson: 1
+  type: short
+  question: '10 classmates walk. Claim: ''Nepali students walk to school.'' OK?'
+  answer: 'No: sample is too small and not fair; claim too general.'
+- id: q4
   lesson: 2
   type: short
   question: What goes in the headline?
   answer: The main message/claim.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: Name two things every graph needs.
+  answer: Title and labelled axes (with units).
+- id: q6
+  lesson: 2
+  type: short
+  question: Why add a 'what we cannot say' box?
+  answer: To be honest about limits and avoid overclaiming.
+- id: q7
   lesson: 3
   type: short
   question: What is a 'wish' in feedback?
   answer: A specific suggestion for improvement.
+- id: q8
+  lesson: 3
+  type: short
+  question: What three things go in a 1-minute talk?
+  answer: Claim, evidence, one limit.
+- id: q9
+  lesson: 3
+  type: short
+  question: Why avoid saying only 'good' or 'bad'?
+  answer: It does not help the person improve.

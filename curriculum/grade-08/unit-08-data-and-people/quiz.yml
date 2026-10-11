@@ -8,12 +8,42 @@ questions:
   question: Who might an online poll miss?
   answer: People without internet or devices.
 - id: q2
+  lesson: 1
+  type: short
+  question: Why does missing data matter?
+  answer: It can make the results unrepresentative and decisions unfair.
+- id: q3
+  lesson: 1
+  type: short
+  question: How could you include more people?
+  answer: 'Use several methods: paper, in person, visits.'
+- id: q4
   lesson: 2
   type: short
   question: Give two sensitive data fields.
   answer: e.g. family income, religion, disability, health, exact home location.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: What does 'collect only what you need' mean?
+  answer: Do not ask for things your question doesn't require.
+- id: q6
+  lesson: 2
+  type: short
+  question: Small group, 'anonymous' data — risk?
+  answer: People may still be recognised, e.g. 'the only girl who cycles from ward 4'.
+- id: q7
   lesson: 3
   type: short
   question: Name one question to ask about any data-based decision.
   answer: Who is missing / who benefits / who could be harmed / how was it collected.
+- id: q8
+  lesson: 3
+  type: short
+  question: Is data always neutral?
+  answer: 'No: choices in collecting and measuring shape it.'
+- id: q9
+  lesson: 3
+  type: short
+  question: Write one rule for our class data charter.
+  answer: e.g. never share names; always ask consent.

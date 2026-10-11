@@ -8,12 +8,42 @@ questions:
   question: Latitude measures…
   answer: North–south position.
 - id: q2
+  lesson: 1
+  type: short
+  question: Straight-line vs road distance in hills?
+  answer: Road is longer.
+- id: q3
+  lesson: 1
+  type: short
+  question: What does haversine compute?
+  answer: Distance along the Earth's surface between two points.
+- id: q4
   lesson: 2
   type: short
   question: Count or rate for a choropleth?
   answer: Rate.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: Why colour-blind-friendly scales?
+  answer: Many people can't tell red from green.
+- id: q6
+  lesson: 2
+  type: short
+  question: What to show for missing data?
+  answer: A distinct colour/pattern and a legend note.
+- id: q7
   lesson: 3
   type: short
   question: Credit line for OSM?
   answer: © OpenStreetMap contributors.
+- id: q8
+  lesson: 3
+  type: short
+  question: Does 'open' mean 'no conditions'?
+  answer: 'No: check the licence.'
+- id: q9
+  lesson: 3
+  type: short
+  question: Why check boundary licences?
+  answer: They may differ from the map data.

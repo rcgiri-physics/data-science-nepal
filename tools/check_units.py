@@ -28,8 +28,8 @@ def main() -> int:
                 problems.append(f"{rel}: missing {name}")
         if (u / "quiz.yml").exists():
             quiz = yaml.safe_load((u / "quiz.yml").read_text(encoding="utf-8"))
-            if not quiz.get("questions"):
-                problems.append(f"{rel}: quiz has no questions")
+            if len(quiz.get("questions") or []) < 6:
+                problems.append(f"{rel}: quiz needs at least 6 questions")
         if (u / "datasets.yml").exists():
             for d in yaml.safe_load((u / "datasets.yml").read_text(encoding="utf-8")).get("datasets", []):
                 if not (ROOT / "datasets" / d / "DATASET_CARD.md").exists():
