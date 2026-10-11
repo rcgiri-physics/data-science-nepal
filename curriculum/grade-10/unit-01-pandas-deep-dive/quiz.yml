@@ -8,17 +8,57 @@ questions:
   question: Why replace -999 with NaN?
   answer: So it isn't treated as a real (very negative) reading.
 - id: q2
+  lesson: 1
+  type: short
+  question: What does pd.to_datetime do?
+  answer: Turns text into real dates.
+- id: q3
+  lesson: 1
+  type: short
+  question: What must you record?
+  answer: How many values were changed and why.
+- id: q4
   lesson: 2
   type: short
   question: pandas mean() on a column with NaN does what by default?
   answer: Skips the NaN.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: Why is filling with the mean risky?
+  answer: It hides missingness and shrinks variability.
+- id: q6
+  lesson: 2
+  type: short
+  question: What should you check about missing data?
+  answer: Whether they cluster in time/place.
+- id: q7
   lesson: 3
   type: short
   question: df.groupby('month')['pm25'].mean() returns…
   answer: One average per month.
-- id: q4
+- id: q8
+  lesson: 3
+  type: short
+  question: Why chart as well as print?
+  answer: Patterns are easier to see.
+- id: q9
+  lesson: 3
+  type: short
+  question: What is a doubt you'd raise?
+  answer: Missing data, one station, synthetic data.
+- id: q10
   lesson: 4
   type: short
   question: What does a 7-day rolling mean do?
   answer: Averages each day with the previous 6 days.
+- id: q11
+  lesson: 4
+  type: short
+  question: Bigger window → ?
+  answer: Smoother, slower to react.
+- id: q12
+  lesson: 4
+  type: short
+  question: Does smoothing remove real spikes?
+  answer: 'It can blur them: check the raw data too.'

@@ -8,12 +8,42 @@ questions:
   question: minutes = [5, 20, 35]; minutes[0]?
   answer: '5.'
 - id: q2
+  lesson: 1
+  type: short
+  question: len(minutes)?
+  answer: '3.'
+- id: q3
+  lesson: 1
+  type: short
+  question: '= or ==: which assigns?'
+  answer: = assigns; == compares.
+- id: q4
   lesson: 2
   type: short
   question: What does 'for m in minutes' do?
   answer: Repeats the indented steps once for each value m in the list.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: Why is indentation important?
+  answer: It shows which lines are inside the loop/if.
+- id: q6
+  lesson: 2
+  type: short
+  question: Count of values > 30 uses…
+  answer: A loop with an if and a counter.
+- id: q7
   lesson: 3
   type: short
   question: What does return do?
   answer: Sends a result back to where the function was called.
+- id: q8
+  lesson: 3
+  type: short
+  question: my_median([1, 2, 3, 4])?
+  answer: 2.5.
+- id: q9
+  lesson: 3
+  type: short
+  question: Why test with small lists?
+  answer: You can check the answer by hand.

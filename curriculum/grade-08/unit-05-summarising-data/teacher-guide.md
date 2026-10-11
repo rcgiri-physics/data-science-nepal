@@ -55,3 +55,27 @@ project marked with the rubric in `docs/pedagogy/assessment.md`; 2-minute oral c
 
 ## Alignment
 Extends the Grade 8 compulsory Maths statistics chapter (pie chart, mean, median, mode) with question-forming, data collection and interpretation.
+
+## Answers: practice exercises
+1. Mean 47 ÷ 6 ≈ 7.83; median (7 + 8) ÷ 2 = 7.5; mode 7; range 12 − 4 = 8.
+2. Sorted: 12, 19, 22, 27, 31, 38, 45 → median 27. Students who skip sorting take the unsorted middle value, 19.
+3. Maths (12). Favourite subject is categorical: there is no sum of subjects.
+4. Total must be 6 × 15 = 90; known marks sum to 76; missing mark = 14.
+5. Mean = 11,350 ÷ 7 ≈ Rs 1,621; median = Rs 900. The median: six of seven workers earn ≤ 1,000.
+6. Mean 3.8 mm, median 0 mm, mode 0 mm. Tell the planner "most days are dry (median/mode 0), but expect one or two
+   wet days; one day had 35 mm". The mean alone suggests light rain every day, which is wrong.
+7. Any five numbers summing to 50 with middle value 8, e.g. 5, 6, 8, 10, 21.
+8. Example: "Heights centre around 155 cm (median 155, mean 155.4); they spread from 139 to 171 cm (range 32 cm);
+   the distribution is roughly symmetric (mean ≈ median) with no outliers."
+9. Land ownership is right-skewed: a few large landowners raise the mean; many households own much less than the
+   mean (and some own none). The median would describe a typical household better.
+10. e.g. (i) every student improved a little; (ii) most stayed the same but some low scorers improved a lot; (iii)
+    the weakest students left the school or did not sit the exam (a selection effect: the "improvement" is not real).
+
+## Real-data exercises: notes
+* **R1** Annual totals vary from under 500 mm in the rain-shadow north-west (e.g. Jomsom/Mustang area) to more
+  than 3,500–4,000 mm around Pokhara/Lumle; the distribution is right-skewed with high outliers that are real.
+* **R2** Median 4.4, modes 4.0 and 4.3 (bimodal), mean ≈ 4.48 on the 2026-10-11 download (304 events); the mean is
+  above the median because of the right skew from the large events. Accept nearby answers if the file differs.
+* **R3** Vegetable prices move with the seasons and with festivals; answers depend on the weeks chosen, so let
+  students compare their weeks rather than expect one right answer. Check that units (Rs/kg) are written.

@@ -8,12 +8,42 @@ questions:
   question: Which graph suits 'favourite subject'?
   answer: A bar chart (categories).
 - id: q2
+  lesson: 1
+  type: short
+  question: What can a dot plot show that a table hides?
+  answer: Where values cluster, gaps and unusual values.
+- id: q3
+  lesson: 1
+  type: short
+  question: What must every graph have?
+  answer: A title, labelled axes with units, and a sensible scale.
+- id: q4
   lesson: 2
   type: short
   question: Which graph shows change over days?
   answer: A line graph.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: 'Walk 12, bus 5, cycle 3 of 20: percent who walk?'
+  answer: 60%.
+- id: q6
+  lesson: 2
+  type: short
+  question: Why would a pie chart of 'minutes by student' be wrong?
+  answer: The values are not parts of a single whole.
+- id: q7
   lesson: 3
   type: short
   question: Axis starts at 48 instead of 0 — effect?
   answer: Small differences look huge.
+- id: q8
+  lesson: 3
+  type: short
+  question: Name one more way to mislead with a graph.
+  answer: Uneven scale, cut-off data, 3D, cherry-picked time period, misleading title.
+- id: q9
+  lesson: 3
+  type: short
+  question: What is the first thing you check on a graph?
+  answer: 'The axes: what is measured and where they start.'

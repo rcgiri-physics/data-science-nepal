@@ -1,5 +1,9 @@
 # For teachers
 
+> The full **teaching handbook** — the foundation ladder, planning a year, a good lesson, statistical thinking, teaching
+> code, low-resource classrooms, projects and ethics, assessment, AI, inclusion and your own learning path — is in
+> [`book/teaching/`](../../book/teaching/) and in the teacher edition of the book (`python tools/build_book.py`).
+
 ## Start here (30 minutes)
 1. Read `docs/pedagogy/lesson-anatomy.md` (one page).
 2. Open `curriculum/grade-XX/README.md` for your grade and pick a unit.

@@ -55,3 +55,32 @@ project marked with the rubric in `docs/pedagogy/assessment.md`; 2-minute oral c
 
 ## Alignment
 Enrichment aligned to NEB Grade 12 Computer Science (programming, databases, emerging technologies) and Maths/Statistics.
+
+## Answers: practice exercises
+1. Train 0.5 / test 6.0 → overfit. Train 4.0 / test 4.1 with noise SD 1 → underfit (both errors far above the noise).
+2. Validation once; training 4 times.
+3. More data; regularisation; limits on complexity (tree depth, larger *k*); fewer features; early stopping.
+4. k = 1 gives very high training accuracy and lower validation accuracy (overfit); very large *k* approaches the
+   baseline (underfit); the best region is moderate *k* — with this weak synthetic signal differences are small.
+5. 5-fold CV accuracy (all 1,500 rows): depth 1 0.609 ± 0.029, 2 0.604, 3 0.608, 5 0.602, 10 0.573, unlimited 0.553. The
+   one-SE rule picks **depth 1** (a single split — on visits).
+6. With noise SD 0.5, degrees 2–5 all reach ≈ 0.53–0.55 test RMSE (near the noise); degree 8 still overfits (2.17).
+   Less noise lets moderate complexity do well; the noise floor drops.
+7. At 11 bags/ha: degree 2 predicts ≈ 5.3 (truth 4.6); degree 8 predicts ≈ 64 — absurd. Never extrapolate complex
+   fits.
+8. Bias: systematic error from a too-simple shape (degree 1 always misses the bend). Variance: sensitivity to the
+   particular sample (degree 12 changes wildly between samples). Total error balances both.
+9. Choosing among 1,000 options on the test set picks one that was lucky there; 71% is optimistic. They needed a
+   validation set or nested cross-validation, and one untouched test set.
+10. Ridge with degree-8 features (scaled): CV RMSE ≈ 2.22 (alpha 0.001), 2.15 (0.1), 2.12 (1), 2.14 (10), 2.58 (100) —
+    moderate regularisation tames the wiggles; too much makes it underfit.
+
+Lesson 2: the single validation split picks degree 6 (2.25) over degree 2 (2.32); 5-fold CV picks degree 2 (2.06). Refit
+degree 2 on 40 trials: test RMSE 2.12; peak at about 3.5 bags/ha. Make (200 training trials): degree-8 test RMSE falls
+to ≈ 2.1.
+
+## Real-data exercises: notes
+* **R1** Degrees 2–4 usually generalise; a seasonal model `a + b·sin(2πm/12) + c·cos(2πm/12)` uses only 3 parameters and
+  matches the cyclic shape.
+* **R2** A straight line on log income is hard to beat; high degrees flail at the extremes.
+* **R3** Shallow trees (depth 2–4) are near-perfect for penguins.

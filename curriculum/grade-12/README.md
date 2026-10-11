@@ -18,6 +18,13 @@ every notebook ends by asking what could go wrong for real people. Django is an 
 | 7 | [Communicating with data](unit-07-communicating-with-data/chapter.md) | 3 | A/B | Story and memo |
 | 8 | [Capstone with a community client](unit-08-capstone-with-a-client/chapter.md) | 3 | B/A (project) | Community capstone |
 
+Every chapter now has detailed explanations with worked examples (all Python in the chapters is run in CI by
+`tools/check_chapter_code.py`), common mistakes, a unit summary, **practice exercises** (★/★★/★★★, answers in the
+teacher guide) and **exercises with real data** from [`docs/datasets/free-datasets.md`](../../docs/datasets/free-datasets.md),
+each with an offline fallback. Unit 8 ends with an end-of-school checklist; the book's "After Grade 12" part continues
+from there.
+
+
 Flagship project: **Capstone with a community client — a public write-up, model card and (optional) dashboard**
 
 Each unit folder holds: `chapter.md` (student), `teacher-guide.md`, `project.md`, `quiz.yml`, `datasets.yml`

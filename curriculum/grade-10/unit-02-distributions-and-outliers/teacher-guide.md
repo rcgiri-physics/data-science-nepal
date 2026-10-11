@@ -55,3 +55,31 @@ project marked with the rubric in `docs/pedagogy/assessment.md`; 2-minute oral c
 
 ## Alignment
 Optional Computer Science Grade 10: Python programming, databases and AI & contemporary technology; compulsory Maths data handling/statistics.
+
+## Answers: practice exercises
+1. (a) right-skewed; (b) roughly uniform; (c) possibly two humps (boys and girls), or one wide hump.
+2. Mean 5; squared deviations 9, 1, 1, 1, 0, 0, 4, 16 = 32; ÷ 7 = 4.57; SD ≈ 2.14 (pandas 2.138). (Dividing by
+   *n* gives exactly 2: a classic textbook example.)
+3. IQR 40; fences 30 − 60 = −30 and 70 + 60 = 130 → 140 is an outlier; 0 is not.
+4. 155 ± 2 × 7 = 141 to 169 → about 95%.
+5. Maths z = (72 − 60) ÷ 8 = 1.5; Nepali z = (80 − 75) ÷ 4 = 1.25 → relatively better in Maths.
+6. Dots appear in June, October and November (matching the within-month flags; box-plot quartile methods differ
+   slightly).
+7. 52.8 ± 2 × 33.0 → −13.1 to 118.7: negative pollution is impossible; the data are not bell-shaped (two humps, bounded
+   at zero).
+8. 16.0 → probably 160 (decimal slip) — fix only if confirmed, else missing; 1,580 → probably 158.0 — same; 150, 155,
+   162 fine. Log each.
+9. e.g. 10, 11, 12, 13, 14 (SD 1.58, IQR 2) vs 10, 11, 12, 13, 140 (SD 57.0, IQR 2).
+10. The worst days are the point of the analysis; removing them understates exposure and risk.
+
+Lesson 2 step 4 (most unusual within-month days by z): 2019-06-08 (z 3.15), 2019-08-23 (3.11), 2020-11-26 (3.05),
+2019-10-05 (−2.93), 2019-06-12 (2.88). Lesson 3 Make: population outliers (whole-table IQR rule, upper fence
+1,071,121) are Terai-09, Terai-15, Terai-17 — real; keep.
+
+## Real-data exercises: notes
+* **R1** High real values cluster in winter dry spells, around festivals (fireworks/Tihar in some years), and during
+  spring forest-fire smoke (March–April). Low outliers can come from rain events or sensor problems.
+* **R2** Most days have zero or tiny rain; median daily rain is often 0 mm while the mean is several mm. Median
+  describes a typical day; the total (or mean × 365) describes the year.
+* **R3** (2026-10-11 file) mean 4.48, median 4.4, SD 0.49, IQR 0.4, upper fence 5.2 → the 7.8 (and every quake above
+  5.2) is flagged. They are real events — the most important rows of the dataset.

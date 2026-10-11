@@ -55,3 +55,30 @@ project marked with the rubric in `docs/pedagogy/assessment.md`; 2-minute oral c
 
 ## Alignment
 Enrichment aligned to NEB Grade 11–12 Computer Science (databases, programming) and Maths/Statistics.
+
+## Answers: practice exercises
+1. H₀: girls and boys in our school have the same mean sleep; the sex labels are interchangeable with respect to sleep.
+2. 140 ÷ 2,000 = 0.07.
+3. False. p is the probability of data at least this extreme **if** H₀ were true, not the probability that H₀ is true.
+4. Mountain − Terai visits = −0.51 (2.62 vs 3.14); p < 0.001 (no shuffle of 5,000 was as extreme). Sentence: "Mountain
+   women in this synthetic sample had about half a visit fewer on average; chance is a very poor explanation; the data
+   are observational and synthetic."
+5. The small sample has only 6 Mountain records; p ≈ 1 — far too little data to tell anything (not evidence of "no
+   difference").
+6. Replace `.mean()` by `np.median(...)`. Median birth weight facility − home = +0.05 kg, p ≈ 0.12.
+7. We usually don't know the direction in advance and should be surprised by either. One-sided only if the direction
+   was fixed before seeing data and the other direction would be treated exactly like "no effect" (rare).
+8. Volunteer teachers may be more motivated; sections differ; p = 0.01 only says chance is unlikely, not that the
+   programme caused it. Redesign: randomly assign sections (or students) to the programme, measure before and after.
+9. Two "hits" out of 40 is what chance alone produces (≈ 5%); treat them as hypotheses to test on new data.
+10. Both simulate sampling variation of the same difference. If the 95% bootstrap interval excludes 0, the two-sided
+    p-value is usually below about 0.05 (and vice versa, approximately).
+
+Lesson 1 cards: observed difference 0.8 − 0.3 = 0.5; with 10 vs 10, exact permutation p ≈ 0.07 — suggestive, not
+convincing. Lesson 3 step 2: bootstrap 95% CI for Hill − Mountain facility share ≈ 0.015 to 0.177. Step 3: in our run 2
+of 100 random splits gave p < 0.05.
+
+## Real-data exercises: notes
+* **R1** Adelie males are heavier by roughly 600–700 g; p is essentially 0 — a large effect with a clear mechanism.
+* **R2** Years are not independent if there is a trend; with 15 vs 15 years differences need to be large to stand out.
+* **R3** Holidays cluster in certain seasons (Dashain/Tihar in autumn), so compare with nearby ordinary days.

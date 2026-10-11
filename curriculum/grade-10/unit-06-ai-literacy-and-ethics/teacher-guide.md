@@ -55,3 +55,32 @@ project marked with the rubric in `docs/pedagogy/assessment.md`; 2-minute oral c
 
 ## Alignment
 Optional Computer Science Grade 10: Python programming, databases and AI & contemporary technology; compulsory Maths data handling/statistics.
+
+## Answers: practice exercises
+1. e.g. phone keyboard prediction, face unlock, social-media feeds, spam filters, bank fraud alerts, map/route apps,
+   voice assistants, translation.
+2. Training data: examples the system learns from. Token: a small piece of text (word or part-word) the model reads and
+   writes. Hallucination: confident output that is false or invented.
+3. "I used [tool] only to check grammar and spelling; the ideas and wording are mine."
+4. Much more English–Nepali text (news, government documents, websites) exists than Tamang–Nepali text for training.
+5. Training text written before 2015 (75 districts after 1962; 77 after Nawalparasi and Rukum were split in 2015), and
+   web pages that copied old numbers; the model repeats a frequent pattern.
+6. (a) "Explain how to approach question 5 and give me a similar example"; (b) "Explain the features of this kind of
+   poem and give feedback on my draft"; (c) "Explain why my loop gives a KeyError" / "Review my code and point out
+   bugs without rewriting it".
+7. Find the original source/uploader; check reputable news; look for glitches (lips, hands, lighting, audio sync);
+   reverse image/video search; check the date and context.
+8. Benefits: fast feedback, consistency on simple criteria. Risks: bias against unusual or non-standard (e.g. Nepali-
+   English) writing, errors without explanation, students writing for the machine, privacy. Fair use: feedback only,
+   teacher marks, students can appeal, regular checks of disagreements.
+9. Training images over-represent stereotyped scenes (poverty, traditional dress, terraces); harms: reinforces
+   stereotypes about Nepal and farmers, affects how others see and treat them, erases diversity.
+10. Analysis needs judgement: is the data clean? biased? is the difference real or noise? is it cause or correlation?
+    which summary is fair? AI tools make confident mistakes that only someone who knows statistics can catch.
+
+## Real-data exercises: notes
+* **R1** Prepare in advance; keep personal data out. Census 2021: 29,164,578; life expectancy ≈ 70 (WPP/World Bank);
+  remittances ≈ a quarter of GDP in recent years; river lengths vary by source — a good lesson in "which source?".
+* **R2** Expect much better quality for Nepali than for less-resourced languages; respect speakers' judgement.
+* **R3** E.g. rainfall stations under-represent high mountains; OSM under-maps remote rural areas; the synthetic
+  health table over-represents Mountain/Hill relative to the census.

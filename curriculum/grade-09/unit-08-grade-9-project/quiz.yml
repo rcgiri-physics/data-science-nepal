@@ -8,7 +8,27 @@ questions:
   question: What does a plan card contain?
   answer: Question, variables, rate/denominator, data source, risks.
 - id: q2
+  lesson: 1
+  type: short
+  question: Why log cleaning steps?
+  answer: So others can check and repeat them.
+- id: q3
+  lesson: 1
+  type: short
+  question: Name one risk in district tables.
+  answer: Sizes differ, so counts mislead; use rates.
+- id: q4
   lesson: 2
   type: short
   question: What are the three parts of a conclusion?
   answer: Claim, evidence, reasoning (plus a limit).
+- id: q5
+  lesson: 2
+  type: short
+  question: Why an oral check?
+  answer: To show you understand your own work.
+- id: q6
+  lesson: 2
+  type: short
+  question: What goes in the limit box?
+  answer: What the data cannot tell us.

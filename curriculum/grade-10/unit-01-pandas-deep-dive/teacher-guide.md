@@ -64,3 +64,31 @@ project marked with the rubric in `docs/pedagogy/assessment.md`; 2-minute oral c
 
 ## Alignment
 Optional Computer Science Grade 10: Python programming, databases and AI & contemporary technology; compulsory Maths data handling/statistics.
+
+## Answers: practice exercises
+1. `pd.to_datetime("25/04/2015", format="%d/%m/%Y")` → 2015-04-25, a **Saturday** (the day of the Gorkha earthquake).
+2. 53 days above 100 µg/m³.
+3. 22.0 µg/m³.
+4. `air["season"] = air["month"].map({12: "winter", 1: "winter", 2: "winter", 3: "spring", …})`; means: winter 92.4,
+   autumn 54.6, spring 50.7, monsoon 14.1 µg/m³.
+5. 2019: 52.5; 2020: 53.1 — a 0.6 µg/m³ difference, tiny next to the ≈ 80 µg/m³ seasonal difference.
+6. `ffill` mean 53.0, interpolation 53.0 (52.97): no practical difference for short gaps.
+7. 30 of 105 weekly bins (`resample("W")` includes partial weeks at the ends) have a mean above 80.
+8. The ratio is about 0.61 in every season in this synthetic table (it was generated that way). In real data the
+   ratio often changes with season and source (dust vs smoke), which is why scientists look at it.
+9. Check that the function does not modify a global table, returns `(df, log)`, and that tests check counts
+   (4 codes, 29 missing, 731 rows).
+10. With 30 December days removed: NaN-skipped mean 51.1, interpolated 52.4 (vs 52.8 complete). A long gap in the
+    most polluted month biases the annual mean down; interpolation across a month is guesswork. Report the gap.
+
+Weekday result (synthetic): Sunday 49.2, Saturday 50.8, Thursday 52.5, Friday 53.1, Monday 54.2, Wednesday 54.4,
+Tuesday 55.1 µg/m³ — differences small relative to the spread.
+
+## Real-data exercises: notes
+* **R1** ODN/OpenAQ files often have columns like `location, parameter, value, unit, date.utc/local`; parse the
+  local time, filter one parameter/location, `resample("D").mean()`. Negative values and long gaps occur.
+* **R2** Monthly rain must be a **sum**; temperature a **mean**. Kathmandu's monsoon months (Jun–Sep) carry most
+  of the annual rain.
+* **R3** The `-END HEADER-` line number differs with the number of parameters; find it with a small loop
+  (`for i, line in enumerate(open(path))`). After `melt`, map month names to numbers and multiply by days in month
+  (`pd.Period(...).days_in_month`).

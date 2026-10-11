@@ -8,12 +8,42 @@ questions:
   question: Will two samples give the same mean?
   answer: Usually not.
 - id: q2
+  lesson: 1
+  type: short
+  question: Bigger sample → ?
+  answer: Less variation in the estimate.
+- id: q3
+  lesson: 1
+  type: short
+  question: What causes the difference?
+  answer: Chance in who ends up in each sample.
+- id: q4
   lesson: 2
   type: short
   question: '''With replacement'' means…'
   answer: Each draw is put back, so items can repeat.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: What do we compute each time?
+  answer: The statistic (e.g. mean).
+- id: q6
+  lesson: 2
+  type: short
+  question: Middle 95% gives…
+  answer: A 95% bootstrap interval.
+- id: q7
   lesson: 3
   type: short
   question: Which is narrower, n=25 or n=400?
   answer: n = 400.
+- id: q8
+  lesson: 3
+  type: short
+  question: Does a narrow interval fix a biased sample?
+  answer: No.
+- id: q9
+  lesson: 3
+  type: short
+  question: Is a 95% interval where 95% of the data lie?
+  answer: 'No: it concerns the uncertainty of the estimate.'

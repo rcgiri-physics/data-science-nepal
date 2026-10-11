@@ -8,12 +8,42 @@ questions:
   question: Why measure first?
   answer: To fix the real bottleneck.
 - id: q2
+  lesson: 1
+  type: short
+  question: Name two things you can measure.
+  answer: Time and memory.
+- id: q3
+  lesson: 1
+  type: short
+  question: Why repeat timings?
+  answer: Results vary run to run.
+- id: q4
   lesson: 2
   type: short
   question: int8 holds values from…
   answer: −128 to 127.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: Why prefer df['a'].sum() to a loop?
+  answer: It runs in optimised compiled code.
+- id: q6
+  lesson: 2
+  type: short
+  question: Risk of too-small types?
+  answer: 'Overflow: values too big wrap or fail.'
+- id: q7
   lesson: 3
   type: short
   question: What does an index speed up?
   answer: Lookups/filters on the indexed column.
+- id: q8
+  lesson: 3
+  type: short
+  question: What does it cost?
+  answer: Extra space and slower writes.
+- id: q9
+  lesson: 3
+  type: short
+  question: Which column would you index for WHERE station = 7?
+  answer: station.

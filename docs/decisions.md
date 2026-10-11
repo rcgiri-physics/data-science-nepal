@@ -19,4 +19,9 @@
 | D15 | Co-maintainers | One teacher, one statistician or university contact, one Nepali-language editor | Review quality and CDC credibility |
 | D16 | Releases | `v0.x` until pilot evidence exists; `v1.0` afterwards | Avoids claiming unproven impact |
 
+| D17 | Book source | The book is assembled from the repository's markdown: chapters stay in `curriculum/`, book-only parts in `book/` | One copy of each text; site, notebooks and book never drift apart |
+| D18 | Editions | Student edition (chapters, ★ answers) and teacher edition (adds teacher guides, all answers, teaching handbook) from the same sources | Self-study and teaching needs differ |
+| D19 | PDF engine | python-markdown → HTML + print CSS → headless Chrome/Edge; page numbers in the contents via a second pass with pypdf | No LaTeX setup; Devanagari via system fonts; runs on GitHub's Ubuntu runners |
+| D20 | Real data in exercises | Exercises link to publishers (RD-01…RD-20) and always have an offline fallback on synthetic tables; D7/D8 unchanged | Real data without re-hosting or licence risk |
+
 Dataset licence evidence: [alignment/dataset-licence-register.md](alignment/dataset-licence-register.md).

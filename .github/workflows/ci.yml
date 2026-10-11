@@ -20,3 +20,5 @@ jobs:
         run: python tools/check_units.py
       - name: Notebooks run top to bottom offline
         run: python tools/check_notebooks.py
+      - name: Code printed in chapters runs
+        run: python tools/check_chapter_code.py

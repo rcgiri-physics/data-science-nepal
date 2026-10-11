@@ -55,3 +55,29 @@ project marked with the rubric in `docs/pedagogy/assessment.md`; 2-minute oral c
 
 ## Alignment
 Enrichment aligned to NEB Grade 11–12 Computer Science (databases, programming) and Maths/Statistics.
+
+## Answers: practice exercises
+1. Edit the file → `git status` → `git add` → `git commit`.
+2. "Fix typo in rainfall chart title"; "Add 95% bootstrap interval for temperature trend"; "Remove raw CSV from repo
+   and add data/raw/ to .gitignore" (also note it remains in history; ask the teacher how to purge if sensitive).
+3. Creates a random-number generator with seed 42, so the same "random" numbers come out each run.
+4. ```
+   data/raw/
+   .ipynb_checkpoints/
+   secrets.txt
+   ```
+5. No seed; cells run out of order; data file changed (downloaded again); different library versions; hidden state
+   from deleted cells still in memory.
+6. Put the file in the project (`data/climate.csv`) and use `pd.read_csv("data/climate.csv")` (or `Path(__file__)`-
+   based paths in scripts).
+7. Seeds 1–5 (1,000 resamples each): 0.18–0.39, 0.19–0.39, 0.18–0.39, 0.17–0.39, 0.18–0.38 °C/decade — the
+   conclusion (positive trend, interval excludes 0) is robust.
+8. It proves the notebook works from a clean start, with no hidden variables from cells you deleted or ran out of order.
+9. Missing code/data, undocumented manual steps, different software versions, errors, selective reporting. Trust: if
+   others cannot check a result, policy based on it rests on faith.
+10. Check for: question, data source/licence/date, how to run, seed/versions, key results, limits, AI use, licence.
+
+## Real-data exercises: notes
+* **R1** `hashlib.sha256(open(path, "rb").read()).hexdigest()`; teach the difference between "same code" and "same data".
+* **R2** OWID and WDI revise estimates each year; small differences are normal — record the download date.
+* **R3** Supervise any public contribution; follow CONTRIBUTING.md and the code of conduct.

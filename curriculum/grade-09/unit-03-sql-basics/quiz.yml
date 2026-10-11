@@ -3,32 +3,82 @@ title: SQL basics on district data
 pre_post: true
 questions:
 - id: q1
-  lesson: 1
-  type: short
-  question: Which clause chooses columns?
-  answer: SELECT.
-- id: q2
-  lesson: 2
-  type: short
-  question: Write 'the 3 smallest districts by area'.
-  answer: SELECT district, area_km2 FROM districts ORDER BY area_km2 ASC LIMIT 3
-- id: q3
-  lesson: 3
-  type: short
-  question: GROUP BY ecological_belt returns how many rows if there are 3 belts?
-  answer: '3.'
-- id: q4
-  lesson: 4
-  type: short
-  question: What is the key in our JOIN?
-  answer: district_id.
-- id: q5
-  lesson: 5
-  type: short
-  question: What three things belong in each finding?
-  answer: The number, what it means in plain words, and a limit.
-- id: q6
   lesson: 0
   type: short
   question: Write a query that returns the average literacy of districts in each province.
   answer: SELECT province, AVG(literacy_pct) FROM districts GROUP BY province
+- id: q2
+  lesson: 1
+  type: short
+  question: Which clause chooses columns?
+  answer: SELECT.
+- id: q3
+  lesson: 1
+  type: short
+  question: Which keeps only some rows?
+  answer: WHERE.
+- id: q4
+  lesson: 1
+  type: short
+  question: Write the condition for Hill districts.
+  answer: WHERE ecological_belt = 'Hill'
+- id: q5
+  lesson: 2
+  type: short
+  question: Write 'the 3 smallest districts by area'.
+  answer: SELECT district, area_km2 FROM districts ORDER BY area_km2 ASC LIMIT 3
+- id: q6
+  lesson: 2
+  type: short
+  question: What does DESC mean?
+  answer: 'Descending: largest first.'
+- id: q7
+  lesson: 2
+  type: short
+  question: What does LIMIT 10 do?
+  answer: Returns at most 10 rows.
+- id: q8
+  lesson: 3
+  type: short
+  question: GROUP BY ecological_belt returns how many rows if there are 3 belts?
+  answer: '3.'
+- id: q9
+  lesson: 3
+  type: short
+  question: What does AVG(literacy_pct) compute?
+  answer: The mean literacy within each group.
+- id: q10
+  lesson: 3
+  type: short
+  question: Which aggregate counts rows?
+  answer: COUNT(*).
+- id: q11
+  lesson: 4
+  type: short
+  question: What is the key in our JOIN?
+  answer: district_id.
+- id: q12
+  lesson: 4
+  type: short
+  question: Why not join on district names?
+  answer: Spelling differences would break the match.
+- id: q13
+  lesson: 4
+  type: short
+  question: How many rows does a one-to-one JOIN of 77 + 77 give?
+  answer: '77.'
+- id: q14
+  lesson: 5
+  type: short
+  question: What three things belong in each finding?
+  answer: The number, what it means in plain words, and a limit.
+- id: q15
+  lesson: 5
+  type: short
+  question: Why mention that the table is synthetic?
+  answer: So no one mistakes invented numbers for real facts.
+- id: q16
+  lesson: 5
+  type: short
+  question: How can you make queries reusable?
+  answer: Save them in a notebook with comments.

@@ -64,3 +64,31 @@ project marked with the rubric in `docs/pedagogy/assessment.md`; 2-minute oral c
 
 ## Alignment
 Optional Computer Science (Grades 9–10): databases/SQL and introductory programming; compulsory ICT/Maths data handling.
+
+## Answers: practice exercises
+1. 0 (no Grade 9 student is 0: probably missing coded as 0), 999 (an error code), blank (missing). Treat all three as
+   missing and log it.
+2. 2024-03-05; 2015-04-25; 2000-01-01.
+3. 180; 105; 15.
+4. Total = 60 × 10 = 600; remove −999: 600 − (−999) = 1,599 for 9 values; mean ≈ 177.7. (Shows how badly one
+   code distorts a mean.)
+5. e.g. Kavre, Kabhrepalanchok, Kavrepalanchowk, KAVRE → standard "Kavrepalanchok", काभ्रेपलाञ्चोक.
+6. 2081 Kartik → 2024 (October–November, −57); 2080 Falgun → 2024 (February–March, −56); 2082 Baisakh 1 = 14 April
+   2025 (check calendar).
+7. Leading zeros vanish (001 → 1), codes no longer sort or match as text. Format the column as text before typing/
+   importing, or re-pad with `=TEXT(A2,"000")`.
+8. Higher: winter is the most polluted season, so missing winter days remove high values; the mean of the remaining
+   days underestimates the year.
+9. (i) Ask the student / check the paper form (best, but slow); (ii) mark missing (safe, but loses data); (iii)
+   assume hours → 90 or minutes → 1.5 (fast, but may be wrong and must be logged).
+10. Example log: 1 standardised district names chitwan/Chitawan → Chitwan (2 rows); 2 removed unit "mm" from rain
+    (1 row); 3 converted 2023-07-18 (AD) to BS 2080-04-02 or all to AD — chose one calendar, kept original column;
+    4 rows 1 and 2 are duplicates (same date, district, rain) → kept one; 5 rain −99 → blank (error code); 6 final:
+    3 rows, 1 missing rain.
+
+## Real-data exercises: notes
+* **R1** POWER rain is mm/day; July in Kathmandu ≈ 8–12 mm/day ≈ 250–370 mm/month. Annual (`ANN`) is a daily mean,
+  not a total. A common mistake is to sum the monthly mm/day values.
+* **R2** The ODN file is in long format with several parameters (pm25, pm10, o3…) and possibly multiple locations in
+  rows; units column present; some negative or zero values. Good discussion of "tidy for what purpose".
+* **R3** Station/district names differ in romanisation and in old vs new administrative names.

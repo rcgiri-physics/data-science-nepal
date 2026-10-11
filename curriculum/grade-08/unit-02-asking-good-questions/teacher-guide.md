@@ -55,3 +55,32 @@ project marked with the rubric in `docs/pedagogy/assessment.md`; 2-minute oral c
 
 ## Alignment
 Extends the Grade 8 compulsory Maths statistics chapter (pie chart, mean, median, mode) with question-forming, data collection and interpretation.
+
+## Answers: practice exercises
+1. (a) yes (b) no: one value (c) yes (d) no: one time (it becomes statistical if asked over a whole year).
+2. Population: everyone we want to learn about (all 600 students). Sample: the part we ask (30 students). Census:
+   asking everyone in the population.
+3. (a) "Should school be open on Saturdays? Yes / No / Not sure." (b) "How would you rate the new library? 1–5."
+   (c) "What do you think are the main reasons students fail exams?" (open) — remove "lazy".
+4. Two questions in one (double-barrelled). Split: "Do you have breakfast at school?" and "Do you have lunch at
+   school?"
+5. (a) measure: count beats for 30 s and double; (b) ask, with options; (c) measure with a scale; (d) ask,
+   anonymously, rating 1–5 plus an open "why".
+6. Compare: "Do students who walk take longer than students who come by bus?" Relate: "Do students who live
+   further away (km) take longer?" or "Do students with longer journeys sleep less?"
+7. Number students 001–600 (use the roll list), then draw 30 numbers from slips or a random-number table/app,
+   skipping repeats. Every student has the same 30/600 = 5% chance.
+8. Volunteer sample: listeners of that station only; people who care strongly reply; one person can SMS many
+   times; people without phones/radio are missing.
+9. Students near the door in this example all walk from far away; they share a feature linked to the answer. A
+   convenience sample is biased when the reason people are "convenient" is linked to what we measure.
+10. Peer check: look for leading words, missing options, two-in-one questions, social pressure.
+
+## Real-data exercises: notes
+* **R1** Fixed-option examples: type of house wall/roof, toilet facility, fuel for cooking; open/fill-in: age,
+  number of household members, mother tongue (coded). Social pressure: questions on disability, literacy, absent
+  members, possessions. The census counts everyone because the government needs exact numbers for every ward
+  (seats, budgets, services) and small areas are too small for samples.
+* **R2** Describe: "What is the typical July rainfall?" Compare: "Is January colder in Jumla than in Biratnagar?"
+  Relate: "Do hotter days have less rain?"
+* **R3** Expect most samples of 6 within about ±8 minutes of 29.7; a few further. This previews sampling variation.

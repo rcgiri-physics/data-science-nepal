@@ -8,12 +8,42 @@ questions:
   question: Why do we use codes instead of names?
   answer: To protect privacy and avoid embarrassment.
 - id: q2
+  lesson: 1
+  type: short
+  question: What should a consent statement say?
+  answer: Why we collect, how we will use it, and that saying no is fine.
+- id: q3
+  lesson: 1
+  type: short
+  question: Is it ok to publish a table of each student's weight with names?
+  answer: No.
+- id: q4
   lesson: 2
   type: short
   question: Tally for 7 is…
   answer: '|||| || (one group of five plus two).'
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: In a frequency table the counts must add to…
+  answer: The total number of students asked.
+- id: q6
+  lesson: 2
+  type: short
+  question: 'Frequencies: walk 12, bus 5, cycle 3. How many students?'
+  answer: '20.'
+- id: q7
   lesson: 3
   type: short
   question: Why should every value in travel_minutes use minutes?
   answer: Mixed units can't be compared or averaged.
+- id: q8
+  lesson: 3
+  type: short
+  question: What should one row be in our class table?
+  answer: One student (by code).
+- id: q9
+  lesson: 3
+  type: short
+  question: A blank cell means…
+  answer: 'Missing: record it as missing and mention it; don''t guess.'

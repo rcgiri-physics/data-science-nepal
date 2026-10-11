@@ -20,5 +20,10 @@ interpretation, and data ethics.
 
 Flagship project: **Our class, our school — a class survey plus one district table become a one-page poster with a claim and evidence**
 
+Every chapter now has, after its lessons: a **unit summary**, **practice exercises** (★ recall, ★★ apply,
+★★★ think deeper; answers in the teacher guide) and **exercises with real data** using free datasets listed in
+[`docs/datasets/free-datasets.md`](../../docs/datasets/free-datasets.md), each with an offline fallback. Unit 8 ends
+with a "ready for Grade 9?" checklist.
+
 Each unit folder holds: `chapter.md` (student), `teacher-guide.md`, `project.md`, `quiz.yml`, `datasets.yml`
 (and `notebooks/` where code is used). Nepali chapters: see `community/translations/STATUS.md`.

@@ -8,17 +8,57 @@ questions:
   question: Why is -999 not a real PM2.5 reading?
   answer: Concentrations cannot be negative; it is an error code.
 - id: q2
+  lesson: 1
+  type: short
+  question: What happens to the mean if we leave -999 in?
+  answer: It is pulled down, giving a wrong low value.
+- id: q3
+  lesson: 1
+  type: short
+  question: What goes in a cleaning log?
+  answer: What was found, what was changed, why, and how many rows.
+- id: q4
   lesson: 2
   type: short
   question: Why do inconsistent spellings matter for GROUP BY?
   answer: They create separate groups for the same thing.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: What is a lookup table?
+  answer: A table mapping each variant to one standard name.
+- id: q6
+  lesson: 2
+  type: short
+  question: How can you spot duplicates in a spreadsheet?
+  answer: Sort, or use conditional formatting / remove-duplicates after copying.
+- id: q7
   lesson: 3
   type: short
   question: 2.5 hours in minutes?
   answer: '150.'
-- id: q4
+- id: q8
+  lesson: 3
+  type: short
+  question: Why put the unit in the header?
+  answer: So cells can stay numeric.
+- id: q9
+  lesson: 3
+  type: short
+  question: What is wrong with '1,50' in some systems?
+  answer: A comma may be read as decimal point or thousands separator; agree a rule.
+- id: q10
   lesson: 4
   type: short
   question: Roughly, BS year minus 57 gives…
   answer: The AD year (approximately; month matters).
+- id: q11
+  lesson: 4
+  type: short
+  question: Why store ISO dates?
+  answer: They sort correctly and are unambiguous.
+- id: q12
+  lesson: 4
+  type: short
+  question: Why keep the original column?
+  answer: So changes are reversible and checkable.

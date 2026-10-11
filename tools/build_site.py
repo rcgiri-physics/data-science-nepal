@@ -24,9 +24,11 @@ def stage() -> None:
         shutil.rmtree(STAGE)
     shutil.copytree(ROOT / "docs", STAGE, ignore=SKIP)
     shutil.copytree(ROOT / "curriculum", STAGE / "curriculum", ignore=SKIP)
-    shutil.copytree(ROOT / "datasets", STAGE / "datasets", ignore=shutil.ignore_patterns("raw", "__pycache__"))
+    shutil.copytree(ROOT / "datasets", STAGE / "datasets", ignore=shutil.ignore_patterns("raw", "__pycache__"),
+                    dirs_exist_ok=True)  # merges with docs/datasets (the free-datasets directory)
     shutil.copytree(ROOT / "community", STAGE / "community", ignore=SKIP)
     shutil.copytree(ROOT / "pilots", STAGE / "pilots", ignore=SKIP)
+    shutil.copytree(ROOT / "book", STAGE / "book", ignore=SKIP)
     for f in ("README.md", "ROADMAP.md", "CONTRIBUTING.md", "GOVERNANCE.md", "ATTRIBUTION.md", "THIRD_PARTY.md",
               "CODE_OF_CONDUCT.md", "LICENSE-CONTENT.md"):
         shutil.copy(ROOT / f, STAGE / f)

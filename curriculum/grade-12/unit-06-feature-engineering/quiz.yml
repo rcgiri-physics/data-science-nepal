@@ -8,12 +8,42 @@ questions:
   question: Name a ratio feature.
   answer: e.g. people per school.
 - id: q2
+  lesson: 1
+  type: short
+  question: What is an interaction?
+  answer: A product of two features capturing a joint effect.
+- id: q3
+  lesson: 1
+  type: short
+  question: Why use domain knowledge?
+  answer: It suggests meaningful features.
+- id: q4
   lesson: 2
   type: short
   question: One-hot of 3 categories makes…
   answer: 3 columns of 0/1.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: Why not 1, 2, 3?
+  answer: It implies order and distance that aren't real.
+- id: q6
+  lesson: 2
+  type: short
+  question: What is get_dummies?
+  answer: A pandas function for one-hot encoding.
+- id: q7
   lesson: 3
   type: short
   question: Why 5-fold CV?
   answer: It averages over several splits to reduce luck.
+- id: q8
+  lesson: 3
+  type: short
+  question: What is leakage in features?
+  answer: Using information that won't be available at prediction time.
+- id: q9
+  lesson: 3
+  type: short
+  question: Pick the simplest set that is…
+  answer: About as good as the best.

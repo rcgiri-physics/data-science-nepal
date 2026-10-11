@@ -8,12 +8,42 @@ questions:
   question: Bars or histogram for 'belt'?
   answer: Bar chart (categorical).
 - id: q2
+  lesson: 1
+  type: short
+  question: What is a bin?
+  answer: A range of values counted together.
+- id: q3
+  lesson: 1
+  type: short
+  question: Why try different bin counts?
+  answer: Shapes can look different; avoid being fooled by one choice.
+- id: q4
   lesson: 2
   type: short
   question: What does the line in the box show?
   answer: The median.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: What is an outlier?
+  answer: A value far from the rest.
+- id: q6
+  lesson: 2
+  type: short
+  question: Should you delete outliers automatically?
+  answer: 'No: investigate first; they may be errors or important facts.'
+- id: q7
   lesson: 3
   type: short
   question: What does each dot represent?
   answer: One district.
+- id: q8
+  lesson: 3
+  type: short
+  question: If points slope upward, what do we call it?
+  answer: A positive relationship.
+- id: q9
+  lesson: 3
+  type: short
+  question: Does it prove one causes the other?
+  answer: 'No: other factors may drive both.'

@@ -8,12 +8,42 @@ questions:
   question: Is a yearly warm summer a trend?
   answer: No, it is seasonality.
 - id: q2
+  lesson: 1
+  type: short
+  question: Why use annual means for trend?
+  answer: They average out the seasonal cycle.
+- id: q3
+  lesson: 1
+  type: short
+  question: What is noise?
+  answer: Random variation not explained by trend or season.
+- id: q4
   lesson: 2
   type: short
   question: Slope 0.03 °C/yr is how much per decade?
   answer: 0.3 °C.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: Why try different start years?
+  answer: To check how sensitive the trend is.
+- id: q6
+  lesson: 2
+  type: short
+  question: Weather vs climate?
+  answer: Weather is short-term; climate is long-term pattern.
+- id: q7
   lesson: 3
   type: short
   question: Anomaly = ?
   answer: Observed − usual (baseline) value for that month.
+- id: q8
+  lesson: 3
+  type: short
+  question: Why subtract a monthly baseline?
+  answer: To remove the seasonal cycle.
+- id: q9
+  lesson: 3
+  type: short
+  question: Positive anomaly means…
+  answer: Warmer than usual.

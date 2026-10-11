@@ -8,12 +8,42 @@ questions:
   question: Is 'What is the height of Mount Everest?' statistical?
   answer: 'No: one fixed answer.'
 - id: q2
+  lesson: 1
+  type: short
+  question: Make 'How many siblings does Sita have?' statistical.
+  answer: '''How many siblings do students in our class have?'''
+- id: q3
+  lesson: 1
+  type: short
+  question: Why must a statistical question allow variation?
+  answer: If every answer is the same there is nothing to analyse or compare.
+- id: q4
   lesson: 2
   type: short
   question: Rewrite 'Isn't maths the best subject?' neutrally.
   answer: '''Which subject do you like most?'' (with options).'
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: Name one way a sample can be biased.
+  answer: e.g. asking only one section, only friends, only volunteers.
+- id: q6
+  lesson: 2
+  type: short
+  question: Give one thing better measured than asked.
+  answer: e.g. height, travel time (use a clock).
+- id: q7
   lesson: 3
   type: short
   question: What is a population?
   answer: The whole group we want to learn about.
+- id: q8
+  lesson: 3
+  type: short
+  question: Why is drawing names from a box fair?
+  answer: Everyone has an equal chance, reducing bias.
+- id: q9
+  lesson: 3
+  type: short
+  question: Can a large sample still be biased?
+  answer: Yes, if the way we choose it favours some people.

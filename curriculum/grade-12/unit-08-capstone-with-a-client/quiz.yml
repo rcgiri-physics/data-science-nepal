@@ -8,12 +8,42 @@ questions:
   question: What does a data agreement cover?
   answer: Purpose, consent, storage, sharing, deletion.
 - id: q2
+  lesson: 1
+  type: short
+  question: Why define success first?
+  answer: Otherwise we can't tell if the work helped.
+- id: q3
+  lesson: 1
+  type: short
+  question: May you share a client's data publicly?
+  answer: Only if the agreement says so.
+- id: q4
   lesson: 2
   type: short
   question: What goes in a model card?
   answer: Purpose, data, performance, limits, groups affected.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: What is the client's 'current way'?
+  answer: The practice your model must beat.
+- id: q6
+  lesson: 2
+  type: short
+  question: Why audit before handover?
+  answer: To avoid harm to under-served groups.
+- id: q7
   lesson: 3
   type: short
   question: What must be anonymised before publishing?
   answer: Anything identifying people or families.
+- id: q8
+  lesson: 3
+  type: short
+  question: What goes in the README?
+  answer: How to rerun, data sources, versions, contacts.
+- id: q9
+  lesson: 3
+  type: short
+  question: Whose consent is required?
+  answer: The client, data owners and guardians where students appear.

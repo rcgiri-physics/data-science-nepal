@@ -8,12 +8,42 @@ questions:
   question: Slope 0.04 kg per visit means…
   answer: Each extra visit goes with about 0.04 kg higher birth weight on average.
 - id: q2
+  lesson: 1
+  type: short
+  question: What does the intercept mean?
+  answer: The predicted y when x = 0 (may not make sense).
+- id: q3
+  lesson: 1
+  type: short
+  question: What is minimised?
+  answer: The sum of squared residuals.
+- id: q4
   lesson: 2
   type: short
   question: '''Holding visits fixed'' means…'
   answer: Comparing mothers with the same number of visits.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: Why might a coefficient shrink when adding a predictor?
+  answer: Predictors share information.
+- id: q6
+  lesson: 2
+  type: short
+  question: Does a coefficient show cause?
+  answer: Not by itself.
+- id: q7
   lesson: 3
   type: short
   question: What does R² = 0.4 mean?
   answer: 40% of the variation in y is explained by the model.
+- id: q8
+  lesson: 3
+  type: short
+  question: What pattern in residuals is a warning?
+  answer: A curve or funnel shape.
+- id: q9
+  lesson: 3
+  type: short
+  question: Is high R² always good?
+  answer: 'No: it depends on purpose and can reflect overfitting.'

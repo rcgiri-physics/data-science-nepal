@@ -8,12 +8,42 @@ questions:
   question: Regression predicts…
   answer: A number.
 - id: q2
+  lesson: 1
+  type: short
+  question: Coefficient 0.05 for visits means…
+  answer: +0.05 kg per extra visit, other features fixed.
+- id: q3
+  lesson: 1
+  type: short
+  question: Same as Grade 11 least squares?
+  answer: 'Yes: same line.'
+- id: q4
   lesson: 2
   type: short
   question: Probability range?
   answer: 0 to 1.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: What turns a probability into a class?
+  answer: A threshold.
+- id: q6
+  lesson: 2
+  type: short
+  question: Who chooses the threshold?
+  answer: People, based on costs of different mistakes.
+- id: q7
   lesson: 3
   type: short
   question: 'Predict rainfall in mm: type?'
   answer: Regression.
+- id: q8
+  lesson: 3
+  type: short
+  question: 'Predict ''pass/fail'': type?'
+  answer: Classification.
+- id: q9
+  lesson: 3
+  type: short
+  question: Why favour explainable models?
+  answer: People affected deserve to understand decisions.

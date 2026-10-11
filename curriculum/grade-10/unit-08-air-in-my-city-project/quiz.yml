@@ -8,7 +8,27 @@ questions:
   question: What must you cite for the limit?
   answer: The organisation and document it came from.
 - id: q2
+  lesson: 1
+  type: short
+  question: Why plan for missing data?
+  answer: It affects counts and means.
+- id: q3
+  lesson: 1
+  type: short
+  question: What is a one-line question?
+  answer: e.g. 'In which months is PM2.5 most often above the limit?'
+- id: q4
   lesson: 2
   type: short
   question: Three parts of a conclusion?
   answer: Claim, evidence, reasoning.
+- id: q5
+  lesson: 2
+  type: short
+  question: Name two limits in this study.
+  answer: One station; missing days; (synthetic) data.
+- id: q6
+  lesson: 2
+  type: short
+  question: Why disclose AI use?
+  answer: Honesty and fair assessment.

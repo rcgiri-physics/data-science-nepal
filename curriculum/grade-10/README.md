@@ -18,6 +18,13 @@ swap in real data with `tools/fetch_data.py` after checking the licence.
 | 7 | [Dashboards with Streamlit](unit-07-dashboards-with-streamlit/chapter.md) | 3 | B (code) | Mini dashboard |
 | 8 | [Project: Air in my city](unit-08-air-in-my-city-project/chapter.md) | 2 | B (project) | Air in my city |
 
+Every chapter now has detailed explanations with worked examples (all Python in the chapters is run in CI by
+`tools/check_chapter_code.py`, except Streamlit app code), common mistakes, a unit summary, **practice exercises**
+(★/★★/★★★, answers in the teacher guide) and **exercises with real data** from
+[`docs/datasets/free-datasets.md`](../../docs/datasets/free-datasets.md), each with an offline fallback. Unit 8 ends
+with a "ready for Grade 11?" checklist.
+
+
 Flagship project: **Air in my city — analyse a year of PM2.5 and publish a mini dashboard**
 
 Each unit folder holds: `chapter.md` (student), `teacher-guide.md`, `project.md`, `quiz.yml`, `datasets.yml`

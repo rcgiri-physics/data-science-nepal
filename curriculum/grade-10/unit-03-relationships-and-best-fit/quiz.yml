@@ -8,12 +8,42 @@ questions:
   question: r = −0.9 means…
   answer: A strong negative straight-line relationship.
 - id: q2
+  lesson: 1
+  type: short
+  question: r = 0 means…
+  answer: No straight-line relationship (curves possible).
+- id: q3
+  lesson: 1
+  type: short
+  question: Does r show cause?
+  answer: No.
+- id: q4
   lesson: 2
   type: short
   question: Slope 1.6 for PM10 vs PM2.5 means…
   answer: PM10 is about 1.6 µg/m³ higher for each 1 µg/m³ of PM2.5.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: What is a residual?
+  answer: Observed − predicted.
+- id: q6
+  lesson: 2
+  type: short
+  question: Why squares?
+  answer: So positive and negative misses don't cancel.
+- id: q7
   lesson: 3
   type: short
   question: What is a confounder?
   answer: A hidden factor that affects both variables.
+- id: q8
+  lesson: 3
+  type: short
+  question: Give an example.
+  answer: Summer heat drives both ice-cream sales and swimming accidents.
+- id: q9
+  lesson: 3
+  type: short
+  question: What design supports causal claims?
+  answer: A randomised experiment.

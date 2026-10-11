@@ -56,3 +56,32 @@ project marked with the rubric in `docs/pedagogy/assessment.md`; 2-minute oral c
 
 ## Alignment
 Extends the Grade 8 compulsory Maths statistics chapter (pie chart, mean, median, mode) with question-forming, data collection and interpretation.
+
+## Answers: practice exercises
+1. (a) categorical (b) numerical (c) categorical (d) numerical (e) categorical: a label (f) numerical.
+2. (b) measurement · (d) count · (f) measurement.
+3. (a) Ministry of Culture, Tourism and Civil Aviation / Department of Tourism (also Nepal Tourism Board);
+   (b) Department of Hydrology and Meteorology; (c) Nepal Rastra Bank (NSO also publishes price indices).
+4. Three formats and two calendars: they cannot be compared or averaged. Better: "Age in completed years: ___" or
+   ask for date of birth in one stated calendar (BS or AD) and calculate.
+5. Check: codes not names; one row per person; units written (cm, minutes, years).
+6. Marks can be averaged; divisions cannot (the "average" of First and Second Division is meaningless). Divisions
+   do have an order (Distinction > First > Second), so they are **ordinal** categorical.
+7. Any two: why students were absent; who arrived late; whether students were learning; attendance in other
+   classes; who left early.
+8. "Who collected it?" and "When?" first: the census 2021 final count was about 29.2 million; "30 million" may be a
+   projection, a rounded figure or an error. Then "how" (census or estimate?).
+9. No. 0 °C is not "no heat"; it is where water freezes. Ratios only make sense when zero means "none" (for
+   example 20 mm of rain *is* twice 10 mm). This stretch idea (interval vs ratio scales) is enough at this level.
+10. Accept any form with ≥2 numerical (hours per day, number of apps, age when first used a phone) and ≥2
+    categorical (phone owner: self/family/none, main use: study/games/social), units given, no names.
+
+## Real-data exercises: notes
+* **R1** One row = one year. Columns: year (time label; treat as categorical/ordered here), arrivals by air,
+  arrivals by land, total arrivals (counts, persons), earnings (money, check unit on the page: usually NPR or US$
+  in thousands/millions). Source: MoCTCA via Open Data Nepal, collected at airports and border points. Can answer:
+  "Did arrivals grow between 2001 and 2014?" Cannot answer: "Why did they fall?" or anything after 2014.
+* **R2** Population and households are numerical counts; district and province are categorical. Mother tongue is
+  categorical with more than 100 categories (124 languages were reported in 2021; confirm on the results page).
+  Handle sensitive variables (caste, religion) as "describing groups", never ranking them.
+* **R3** Good for a homework check-in; ask two students to read out one example each.

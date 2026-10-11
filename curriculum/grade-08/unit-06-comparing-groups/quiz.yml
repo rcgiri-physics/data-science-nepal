@@ -5,16 +5,45 @@ questions:
 - id: q1
   lesson: 1
   type: short
-  question: 'District P: 900 of 1,800 children enrolled; Q: 600 of 1,000. Which has the higher enrolment
-    rate?'
+  question: 'District P: 900 of 1,800 children enrolled; Q: 600 of 1,000. Which has the higher enrolment rate?'
   answer: P 50%, Q 60% → Q.
 - id: q2
+  lesson: 1
+  type: short
+  question: Why is a count unfair across districts?
+  answer: Bigger districts have bigger counts just by being bigger.
+- id: q3
+  lesson: 1
+  type: short
+  question: Convert 45 per 1,000 to a percent.
+  answer: 4.5%.
+- id: q4
   lesson: 2
   type: short
   question: What do you compute for each group before comparing?
   answer: The same summary, e.g. the median.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: If belt medians are 66 and 77, what is the difference?
+  answer: 11 percentage points.
+- id: q6
+  lesson: 2
+  type: short
+  question: Why draw both on the same axis?
+  answer: To compare fairly at a glance.
+- id: q7
   lesson: 3
   type: short
   question: '60% to 66%: change in percentage points?'
   answer: 6 points.
+- id: q8
+  lesson: 3
+  type: short
+  question: Same change as relative percent?
+  answer: 6 ÷ 60 = 10%.
+- id: q9
+  lesson: 3
+  type: short
+  question: Why do headlines sometimes pick the bigger-sounding one?
+  answer: To make a change seem more dramatic; always ask which one is used.

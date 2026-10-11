@@ -55,3 +55,29 @@ project marked with the rubric in `docs/pedagogy/assessment.md`; 2-minute oral c
 
 ## Alignment
 Extends the Grade 8 compulsory Maths statistics chapter (pie chart, mean, median, mode) with question-forming, data collection and interpretation.
+
+## Answers: practice exercises
+1. (a) bar chart (b) line graph (c) dot plot or histogram (d) pie chart or bar chart (parts of a whole).
+2. A histogram's x-axis is a continuous number line (classes follow each other with no gap); a bar chart's
+   categories are separate.
+3. Bars in order Maths 12, Social 11, Nepali 6, Science 5, English 2; axis from 0.
+4. Total 36: Maths 120°, Social 110°, Nepali 60°, Science 50°, English 20° = 360°.
+5. Rounded: 6.5, 6.5, 6.5, 7.0, 7.0, 8.0, 8.0, 8.0, 8.5, 8.5, 9.0, 9.5. Two clusters (6.5–7 and 8–8.5), one high
+   value (9.5); range 6.5 to 9.5 hours.
+6. 13.8 − 4.8 = 9.0 percentage points; it fell to about 4.8/13.8 ≈ 0.35 of its 1990 value, i.e. by about 65%
+   (roughly two-thirds). Teach "percentage points" vs "percent" carefully.
+7. Looks like enrolment tripled or more; actual rise is 20/980 ≈ 2%. Honest version: bar chart from 0, or a line
+   graph clearly labelled with a note.
+8. Doubling height also doubles width, so the picture's area is 4 times bigger; the eye reads area.
+9. Bar chart (or pie: three parts of one whole). Bars ordered Mountain, Hill, Terai (natural order) from 0; Terai
+   tallest. Remind students the numbers are synthetic.
+10. Peer-share a few; reward reviews that mention axes and source.
+
+## Real-data exercises: notes
+* **R1** Arrivals grew over the period with dips (e.g. around the conflict years in the early 2000s); students
+  should look up the events rather than be told. Air arrivals are the large majority. If the downloaded file's years
+  differ from the title (listing says 2001–2014, description 2003–2014), use that as a lesson in checking files.
+* **R2** OWID values (downloaded 2026-10-11), child mortality %: 1990 — Bangladesh 14.6, India 12.7, Nepal 13.8,
+  Sri Lanka 2.3; 2020 — Bangladesh 3.1, India 3.3, Nepal 3.0, Sri Lanka 0.7. Sri Lanka lowest throughout; the
+  largest fall in points is Bangladesh (11.5) and Nepal (10.8). Values may change slightly with OWID updates.
+* **R3** Right-skewed: tallest bar at 4.0–4.4, long tail to the right toward 7.8.

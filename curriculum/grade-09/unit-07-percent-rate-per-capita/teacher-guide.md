@@ -55,3 +55,33 @@ project marked with the rubric in `docs/pedagogy/assessment.md`; 2-minute oral c
 
 ## Alignment
 Optional Computer Science (Grades 9–10): databases/SQL and introductory programming; compulsory ICT/Maths data handling.
+
+## Answers: practice exercises
+1. 0.025; 2.5%; 25 per 1,000.
+2. 840 ÷ 28 = 30 students per teacher.
+3. 100 × 1,180 ÷ 1,250 = 94.4 males per 100 females.
+4. Passes: 18 + 28 + 5 = 51 of 70 → 72.9%. Simple average of rates = 70%: the big class (70%) and small class (50%)
+   are wrongly given equal weight with the small 90% class.
+5. (a) literate people aged 5+ ÷ people aged 5+; (b) remittances received ÷ GDP; (c) hospital beds ÷ population
+   × 10,000; (d) students ÷ computers.
+6. +10.3 percentage points; percent change 10.3 ÷ 65.9 ≈ 15.6%. Headline: "Literacy rose from 65.9% to 76.2% between
+   the 2011 and 2021 censuses, up about 10 percentage points."
+7. +20% over the decade; annual growth (1.2)^(0.1) − 1 ≈ 1.84% per year.
+8. Vehicles may have grown much faster than deaths: deaths per vehicle can fall while deaths per person (and the
+   total) rise. Check deaths per 100,000 people and the counts.
+9. Synthetic sums: Hill 84.4, Mountain 87.9, Terai 97.2 males per 100 females; Hill lowest. In real data, hill
+   districts with heavy male labour migration have low sex ratios.
+10. No: 1.1 × 1.1 = 1.21 → 21%.
+
+Lesson 2 activity: weighted girls' share by belt — Hill 50.16%, Mountain 50.15%, Terai 50.11%; mean of district
+shares — Hill 50.24%, Mountain 50.05%, Terai 49.80%. Small differences because district shares are all close to 50%;
+the method matters much more when rates vary a lot.
+Lesson 3 activity: 400,000 → 460,000 is +15%, about 1.41% per year. Rice index = 92 ÷ 80 × 100 = 115 (15% rise).
+
+## Real-data exercises: notes
+* **R1** Nepal's remittances are among the highest shares in the world (around a quarter of GDP in recent years);
+  % of GDP compares economies of different sizes.
+* **R2** Census 2021 vs 2011: Bagmati and Madhesh had the largest increases in count; some hill/mountain districts
+  lost people (provincial totals all grew modestly; check the portal). Annual growth national 0.92% (NSO).
+* **R3** Index with 2014 = 100; spikes appear in years with supply shocks (e.g. 2015 blockade period). Let students
+  find and explain them.

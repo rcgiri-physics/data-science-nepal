@@ -8,12 +8,42 @@ questions:
   question: GROUP BY vs PARTITION BY?
   answer: GROUP BY collapses rows; PARTITION BY keeps them.
 - id: q2
+  lesson: 1
+  type: short
+  question: Highest rank in a belt with 16 districts?
+  answer: 16 (ranks run from 1 to 16 if no ties).
+- id: q3
+  lesson: 1
+  type: short
+  question: What does ORDER BY inside OVER do?
+  answer: Sets the order used for ranking/running totals.
+- id: q4
   lesson: 2
   type: short
   question: Percent of belt formula?
   answer: 100 × population ÷ SUM(population) OVER (PARTITION BY belt).
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: Running total needs…
+  answer: An ORDER BY inside OVER.
+- id: q6
+  lesson: 2
+  type: short
+  question: Why useful?
+  answer: Shows concentration, e.g. few districts hold half the people.
+- id: q7
   lesson: 3
   type: short
   question: INNER JOIN rows = ?
   answer: Only matching rows.
+- id: q8
+  lesson: 3
+  type: short
+  question: LEFT JOIN adds…
+  answer: Unmatched left rows with NULL values on the right.
+- id: q9
+  lesson: 3
+  type: short
+  question: Safe habit?
+  answer: Compare row counts before and after joining.

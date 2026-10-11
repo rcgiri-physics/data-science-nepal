@@ -55,3 +55,31 @@ project marked with the rubric in `docs/pedagogy/assessment.md`; 2-minute oral c
 
 ## Alignment
 Enrichment aligned to NEB Grade 12 Computer Science (programming, databases, emerging technologies) and Maths/Statistics.
+
+## Answers: practice exercises
+1. Accuracy 170/200 = 0.85; precision 40/50 = 0.80; recall 40/60 = 0.667; specificity 130/140 = 0.929; F1 = 0.727.
+2. FP: warning but no flood (people evacuate needlessly; trust falls). FN: flood without warning (lives and property at
+   risk) — usually worse, but too many false alarms make people ignore warnings.
+3. It measures how sensitive the test is to the condition: the share of people who have it that the test detects.
+4. Precision 20/50 = 0.40; recall 20/30 = 0.667.
+5. Lowest threshold with precision ≥ 0.6 is about 0.61, giving recall ≈ 0.46.
+6. It predicts "facility" for everyone, so TP = 0 → recall 0; its accuracy on this test set is 0.461 (only 46% delivered in
+   a facility here).
+7. Recall at 0.5: Hill 0.789 (95 home deliveries), Mountain 0.739 (23), Terai 0.774 (84). Mountain is lowest but based on
+   only 23 women — watch it, collect more data (Unit 5).
+8. The second: with fixed capacity, what matters is how many of the 120 visits reach the right women (precision at
+   top-*k*). Accuracy averages over everyone, including those who will never be visited.
+9. With FN cost ≥ 2 × FP cost, the cheapest threshold in 0.30–0.75 is 0.30 (flag almost everyone): the model is weak, so
+   visiting everyone is cheapest if capacity allowed. A real lesson: sometimes the best "model" is universal coverage.
+10. 10,000 people, 100 infected: test finds ~99 of them (if sensitivity 99%) and wrongly flags 1% of 9,900 ≈ 99 healthy
+    people. So about half of positive results are false positives.
+
+Lesson 2 step 2: the low-birth-weight model's highest predicted probability is ≈ 0.40, so at threshold 0.5 it predicts
+no low birth weights: recall 0. Lesson 3: top 60 → precision 0.733, recall 0.218; top 120 → 0.617, 0.366; top 240 →
+0.579, 0.688.
+
+## Real-data exercises: notes
+* **R1** Chinstrap is ≈ 20% of penguins; bill length + depth separate it well, so high recall is achievable with good
+  precision.
+* **R2** Magnitude ≥ 5 events are a small share of catalogue events; "always no" has high accuracy.
+* **R3** Farmer: low threshold (high recall for rain). School: higher threshold (high precision).

@@ -18,3 +18,9 @@ Rules (also enforced in CI by `tools/validate_dataset_cards.py`):
 
 To add a dataset: copy `docs/templates/DATASET_CARD_TEMPLATE.md`, fill every field, open a PR.
 Full licence evidence: `docs/alignment/dataset-licence-register.md`.
+
+## Free real datasets for exercises
+Each chapter's **Exercises with real data** uses openly available datasets downloaded from their publishers
+(World Bank, Our World in Data, USGS, Open-Meteo, NASA POWER, Open Data Nepal, ICIMOD and others). They are not
+stored here. The directory, with licences, download links and offline fallbacks, is
+[`docs/datasets/free-datasets.md`](../docs/datasets/free-datasets.md) (codes RD-01 … RD-20).

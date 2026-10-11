@@ -8,12 +8,42 @@ questions:
   question: 12 of 200 as a percent?
   answer: 6%.
 - id: q2
+  lesson: 1
+  type: short
+  question: 12 of 200 per 1,000?
+  answer: 60 per 1,000.
+- id: q3
+  lesson: 1
+  type: short
+  question: Why per 1,000 for rare things?
+  answer: Small percents are hard to read; per 1,000 gives readable numbers.
+- id: q4
   lesson: 2
   type: short
   question: Girls' share of enrolment divides by…
   answer: Total enrolment (girls + boys).
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: Why can two 'girls' percentages differ?
+  answer: Different denominators answer different questions.
+- id: q6
+  lesson: 2
+  type: short
+  question: Always state the denominator in…
+  answer: The chart title or caption.
+- id: q7
   lesson: 3
   type: short
   question: '48% → 50%: points?'
   answer: 2 points.
+- id: q8
+  lesson: 3
+  type: short
+  question: Relative change?
+  answer: 2 ÷ 48 ≈ 4.2%.
+- id: q9
+  lesson: 3
+  type: short
+  question: Fair headline wording?
+  answer: State 'percentage points' for the difference.

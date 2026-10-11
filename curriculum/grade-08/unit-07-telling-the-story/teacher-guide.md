@@ -55,3 +55,30 @@ project marked with the rubric in `docs/pedagogy/assessment.md`; 2-minute oral c
 
 ## Alignment
 Extends the Grade 8 compulsory Maths statistics chapter (pie chart, mean, median, mode) with question-forming, data collection and interpretation.
+
+## Answers: practice exercises
+1. (a) E (b) C (c) R.
+2. e.g. "Most of us walk to school"; "Maths and Social are our favourite subjects"; "Half of us use a phone for more
+   than two hours a day" (numbers must come from data).
+3. Claim: walking is the most common way to reach school in our class. Evidence: 26 of 36 students (72%) walk; the
+   next most common, bus, is 5 (14%) (class survey, synthetic table). Reasoning: walking is the mode by a wide
+   margin; limitation: one class, one survey; travel mode may change in the monsoon.
+4. (a) "17 of our 20 friends said they love momo" (or whatever the count was); (b) "In our class, students who use
+   phones more tended to have lower marks; we cannot tell which causes which"; (c) "Our results were higher than two
+   nearby schools last year."
+5. Stars are hard to find: perhaps "you used real data", "you ended with a recommendation". Wishes: headline as a
+   claim; one bar chart instead of three 8-colour pies; add source; cut the paragraph to two lines.
+6. ~120 words: claim, the 26 of 36 (72%) figure pointing at the bar, a limitation, a next step.
+7. (b): it is specific, says which way the bias pushes and why. (a) is true of all data and tells the reader nothing.
+8. "Smarter" is not what literacy measures (literacy is reading/writing ability, linked to access to schools); and
+   the table is synthetic. Better: "In this synthetic table, Hill districts have a higher median literacy rate
+   (77.5%) than Mountain districts (65.5%)."
+9. 17 of 36 (47%) sleep under 8 hours; median 8.05 hours. Not supported: fewer than half are under 8 hours. CER:
+   "About half our class (17 of 36) sleeps less than 8 hours on school nights; the median is just above 8 hours."
+   Good discussion: the same claim can be true for one class and false for another.
+
+## Real-data exercises: notes
+* **R1** Check that the source line names both OWID and the underlying source shown on the chart page.
+* **R2** Good practice: compare the headline number with the source table; look for percent vs percentage points,
+  counts vs rates, and missing time periods.
+* **R3** Assessed with the project rubric.

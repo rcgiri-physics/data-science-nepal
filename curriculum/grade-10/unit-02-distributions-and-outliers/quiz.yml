@@ -8,12 +8,42 @@ questions:
   question: Right-skewed means…
   answer: A long tail to the high side.
 - id: q2
+  lesson: 1
+  type: short
+  question: Which summary suits a skewed variable?
+  answer: The median.
+- id: q3
+  lesson: 1
+  type: short
+  question: What does a two-peak histogram suggest?
+  answer: Maybe two groups or seasons mixed.
+- id: q4
   lesson: 2
   type: short
   question: IQR equals…
   answer: Q3 − Q1.
-- id: q3
+- id: q5
+  lesson: 2
+  type: short
+  question: Which is robust to outliers?
+  answer: The IQR.
+- id: q6
+  lesson: 2
+  type: short
+  question: Same mean, bigger SD means…
+  answer: More spread out values.
+- id: q7
   lesson: 3
   type: short
   question: Rule for the upper fence?
   answer: Q3 + 1.5 × IQR.
+- id: q8
+  lesson: 3
+  type: short
+  question: Do outliers always get deleted?
+  answer: 'No: investigate first.'
+- id: q9
+  lesson: 3
+  type: short
+  question: What must you record?
+  answer: The rule, the decision and the reason.
