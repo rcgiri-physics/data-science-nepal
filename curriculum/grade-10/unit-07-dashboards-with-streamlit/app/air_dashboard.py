@@ -45,5 +45,5 @@ st.line_chart(view[["pm25", "smooth"]])
 st.markdown(
     "**Source:** synthetic table from `datasets/kathmandu-air-quality`. "
     "**Limits:** one station; missing days; invented numbers. "
-    "**Credit:** Data Science Nepal (CC BY 4.0)."
+    "**Credit:** Data Science from Nepal (CC BY 4.0)."
 )

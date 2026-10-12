@@ -38,7 +38,7 @@ from pygments.formatters import HtmlFormatter
 
 ROOT = Path(__file__).resolve().parent.parent
 DIST = ROOT / "dist"
-TITLE = "Data Science for Nepal's Schools"
+TITLE = "Data Science from Nepal"
 SUBTITLE = "डेटा विज्ञान · A foundation course for Grades 8–12"
 FENCE = re.compile(r"^```([\w+-]*)[^\n]*\n(.*?)^```[ \t]*$", re.S | re.M)
 SKIP_MARKERS = ("needs internet", "not run", "___")
@@ -371,7 +371,7 @@ def build_html(edition: str, runner: Runner | None, pages: dict[str, int] | None
 <div class="meta">Ram Chandra Giri and contributors<br>Version {version} · built {today}<br>
 Text CC BY 4.0 · Code MIT · Datasets: see each source</div></section>"""
     credits = f"""<section class="credits"><p><strong>{TITLE}</strong> ({label}). Version {version}, built {today}.</p>
-<p>“Data Science for Nepal's Schools (डेटा विज्ञान / Data Science Nepal)” by Ram Chandra Giri and contributors is licensed
+<p>“Data Science from Nepal (डेटा विज्ञान)” by Ram Chandra Giri and contributors is licensed
 under Creative Commons Attribution 4.0 International (CC BY 4.0), <span class="ref">https://creativecommons.org/licenses/by/4.0/</span>.
 You may copy, print, translate and adapt this book for any purpose, including textbooks, provided you give credit, link
 to the licence and say if changes were made. Code examples are MIT-licensed.</p>

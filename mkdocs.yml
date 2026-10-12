@@ -1,5 +1,5 @@
-site_name: डेटा विज्ञान / Data Science Nepal
-site_description: Open Grades 8-12 data science curriculum for Nepal (CC BY 4.0)
+site_name: डेटा विज्ञान / Data Science from Nepal
+site_description: Free, open Grades 8-12 data science course, built for Nepal and open to learners everywhere (CC BY 4.0)
 docs_dir: .site_src
 site_dir: site
 theme:
