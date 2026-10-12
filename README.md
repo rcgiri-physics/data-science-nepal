@@ -4,6 +4,9 @@ A free, openly licensed, bilingual (Nepali + English) data science curriculum fo
 **Grades 8–12** in Nepal's schools, built around **Nepali datasets** (fetched from their publishers, with synthetic practice tables included), with teacher-ready
 materials, designed so the Curriculum Development Centre (CDC) can adopt or adapt it.
 
+> **Learning on your own, anywhere in the world?** The methods here work with any data; the Nepali datasets are the
+> worked examples. Start with the [book](book/) (student edition) and the free in-browser notebooks, no install needed.
+
 > **Version 0.1.0.** Flagship units: Grade 8 Unit 1 and Grade 9 Unit 3. See [ROADMAP.md](ROADMAP.md) for what is next.
 
 ## Read it as a book
@@ -46,6 +49,11 @@ After Grade 12: [`book/beyond/`](book/beyond/) · CDC pack: [`docs/for-cdc/`](do
    `curriculum/grade-09/unit-03-sql-basics/notebooks/census_sql.ipynb` in Jupyter / JupyterLite.
 3. **Offline school bundle:** `python tools/build_offline_bundle.py` → `dist/school-bundle.zip`.
 4. **The book (PDF):** `python tools/build_book.py` → `dist/data-science-nepal-student.pdf` and `…-teacher.pdf`.
+
+## About this material
+Built for Nepal's schools and open to learners everywhere. This material was structured and drafted with the
+assistance of AI, then curated, verified and adapted by the author. Third-party sources are credited in
+[THIRD_PARTY.md](THIRD_PARTY.md); please report anything that looks uncredited by opening an issue.
 
 ## Licences and credit
 * Content: **CC BY 4.0**; code: **MIT**; datasets keep their own licence (see dataset cards).
