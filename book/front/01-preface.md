@@ -58,6 +58,13 @@ The text is licensed **CC BY 4.0**: you may copy, print, translate and adapt it,
 credit the source. Code is MIT-licensed. Datasets keep their own licences, listed with each one. See the credit line
 at the front of the book.
 
+## How this book was made
+
+This book began as a curriculum for Nepal's schools and is open to learners everywhere. It was structured and drafted
+with the assistance of AI, then curated, verified and adapted by the author: every worked example is run
+automatically, and sources are credited in the project's third-party log. If you find a passage that should credit
+someone, please report it through the repository so it can be fixed.
+
 ## Thanks
 
 To the teachers and students who will test these lessons and tell us what to fix; to the organisations that publish

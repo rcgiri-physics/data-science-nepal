@@ -68,7 +68,7 @@ Properties:
 Here *r* = 0.986: a very strong positive linear relationship (by construction in this synthetic data; in real data
 PM2.5 and PM10 are also strongly related because PM2.5 is part of PM10).
 
-**Anscombe's quartet** (1973): four small datasets with the same mean, SD and *r* = 0.82, but completely different
+**Anscombe's quartet** (1973): four small datasets with the same mean, SD and *r* ≈ 0.82, but completely different
 scatter plots — a line, a curve, a line with one outlier, and a vertical stack with one far point. The lesson: numbers
 alone can hide everything.
 
