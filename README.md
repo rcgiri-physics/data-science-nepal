@@ -1,4 +1,6 @@
-# डेटा विज्ञान / Data Science Nepal
+# डेटा विज्ञान / Data Science from Nepal
+
+*A free, open data science course: built for Nepal's schools, open to learners everywhere.*
 
 A free, openly licensed, bilingual (Nepali + English) data science curriculum for
 **Grades 8–12** in Nepal's schools, built around **Nepali datasets** (fetched from their publishers, with synthetic practice tables included), with teacher-ready

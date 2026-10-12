@@ -16,8 +16,8 @@ INCLUDE = ["curriculum", "datasets", "docs", "README.md", "LICENSE-CONTENT.md", 
            "ATTRIBUTION.md", "THIRD_PARTY.md", "requirements.txt"]
 SKIP_PARTS = {".venv", "__pycache__", ".ipynb_checkpoints", ".git"}
 
-START = """<!doctype html><meta charset="utf-8"><title>Data Science Nepal - school bundle</title>
-<h1>डेटा विज्ञान / Data Science Nepal</h1>
+START = """<!doctype html><meta charset="utf-8"><title>Data Science from Nepal - school bundle</title>
+<h1>डेटा विज्ञान / Data Science from Nepal</h1>
 <p>Open <code>curriculum/</code> for grades 8-12. Read <code>README.md</code> first. Licence: CC BY 4.0 (content), MIT (code).</p>
 <p>Credit: see ATTRIBUTION.md.</p>
 """

@@ -12,7 +12,8 @@ dataset. This book is an attempt to close that gap.
 
 ## What this book is
 
-*Data Science for Nepal's Schools* is a five-year course for Grades 8 to 12, written so that
+*Data Science from Nepal* is a five-year course for Grades 8 to 12. It was built for Nepal's schools, is open to
+learners everywhere, and is written so that
 
 * a **student** can follow it alone, chapter by chapter, with worked examples, exercises and answers to selected
   problems;
