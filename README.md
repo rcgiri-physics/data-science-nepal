@@ -2,7 +2,7 @@
 
 *A free, open data science course: built for Nepal's schools, open to learners everywhere.*
 
-[**Read online**](https://rcgiri-physics.github.io/data-science-nepal/) · [**Get the PDF book**](book/README.md) · [**Teachers start here**](docs/for-teachers/) · [**Contribute**](CONTRIBUTING.md)
+[**Read online**](https://rcgiri-physics.github.io/data-science-nepal/) · [**Download the PDF book**](https://github.com/rcgiri-physics/data-science-nepal/releases/latest) · [**Teachers start here**](docs/for-teachers/) · [**Contribute**](CONTRIBUTING.md)
 
 A free, openly licensed, bilingual (Nepali + English) data science curriculum for
 **Grades 8–12** in Nepal's schools, built around **Nepali datasets** (fetched from their publishers, with synthetic practice tables included), with teacher-ready
