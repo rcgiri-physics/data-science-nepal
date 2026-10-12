@@ -11,7 +11,7 @@ materials, designed so the Curriculum Development Centre (CDC) can adopt or adap
 > **Learning on your own, anywhere in the world?** The methods here work with any data; the Nepali datasets are the
 > worked examples. Start with the [book](book/) (student edition) and the free in-browser notebooks, no install needed.
 
-> **Version 0.1.0.** Flagship units: Grade 8 Unit 1 and Grade 9 Unit 3. See [ROADMAP.md](ROADMAP.md) for what is next.
+> **Version 0.2.0.** Flagship units: Grade 8 Unit 1 and Grade 9 Unit 3. See [ROADMAP.md](ROADMAP.md) for what is next.
 
 ## Read it as a book
 The curriculum is also a **book in two editions** — a *student edition* to learn from on your own and a *teacher
